@@ -1,0 +1,82 @@
+/* Generics */
+/*
+body {
+	font-family: Monaco,serif;
+	font-size:  12px;
+	color: #ababab;
+	width: 899px;
+	overflow: auto;
+	
+}*/
+.DlHighlight {
+  width: 100%;
+  background-color: #1b1d1e;
+  font: 10pt Monaco,serif;
+  padding: 4px 0;
+  overflow:  auto;
+}
+
+.DlHighlight pre { margin: 0; padding: 0; }
+
+.DlHighlight .operand { color: #e8f8f2; }
+.DlHighlight .keyword { color: #65d7ed; }
+
+.DlHighlight .builtin { color: #a19; }
+
+.DlHighlight .string { color: #f8f0c3; }
+.DlHighlight .string .before, .DlHighlight .string .after { color: #ababab; }
+
+.DlHighlight .regexp { color: #394b56; }
+.DlHighlight .regexp .before, .DlHighlight .regexp .after { color: #394b56; font-weight: bold; }
+
+.DlHighlight .comment { color: #394b56; }
+.DlHighlight .comment .before, .DlHighlight .comment .after { color: #394b56; }
+
+.DlHighlight .hashkey { color: #a6e22e; }
+
+.DlHighlight .hasharrow { color: #f00; }
+
+.DlHighlight .paren {  color: #fd8b1f;}
+
+.DlHighlight .operator { color: #e8f8f2; }
+
+.DlHighlight .error { background-color: #c00; color: #fff; }
+
+.DlHighlight .defun { color: #e6db70;	 }
+
+.DlHighlight .line-numbers {
+  float: left;
+  width: 3em;
+  text-align: center;
+  color: #bcbcbc;
+  background: #2f2f2f;
+  margin-right: 5px;
+  font: 0.9em Monaco,serif;
+  padding-top: 0.08em;
+}
+
+/* XML */
+.DlHighlight .xml-tag-open, .DlHighlight .xml-tag-close { color: #A6E22E; }
+.DlHighlight .xml-tag-close .before { color: #F59320; }
+.DlHighlight .xml-tagangle { color: #ABABAB; }
+.DlHighlight .xml-attribute { color: #F59320; }
+
+.DlHighlight .xml-entity { color: #A6E22E; }
+.DlHighlight .xml-entity .before, .DlHighlight .xml-entity .after { color: #607; }
+
+/* CSS */
+.DlHighlight .css-element { color: #e9ce6f; }
+.DlHighlight .css-class { color: #a6e22e;}
+.DlHighlight .css-pseudo-class { color: #777; }
+.DlHighlight .css-id { font-weight: bold; }
+.DlHighlight .css-color-spec { color: #f8f0c3; }
+.DlHighlight .css-length { color: #a19; }
+.DlHighlight .css-length .after { font-weight: bold; }
+.DlHighlight .css-keyword { color: #f59320; }
+.DlHighlight .css-keyword .after { color: #ababab; }
+.DlHighlight .css-attribute { color: #60bbca; }
+.DlHighlight .css-comma { color: red; }
+.DlHighlight .css-url { color: #a6e22e; }
+.DlHighlight .css-brack-open { color: #ae81ff; }
+.DlHighlight .css-brack-close { color: #ae81ff; }
+.DlHighlight .css-end { color: #ababab; }
