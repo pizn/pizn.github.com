@@ -3,8 +3,12 @@ layout:           default
 titlef:           index
 ---
 <header class="v-index-first">
-    {{% assign first_post = site.posts.posts.first %}}
-    <p>xx: {{ first_post.title }}</p>
+<h3>Last Post:</h3>
+    {% assign first_post = site.posts.first %}
+    {{ first_post.post_data || date_to_utc | date: "%Y-%m-%d" }}
+    {{ first_post.post_url }}
+    {{ first_post.title }}
+    {{ first_post.content | truncate: 450 }}
 </header>
 <article class="v-index-list">
     <h3>Recently Posts</h3>
