@@ -6,7 +6,7 @@ titlef:           index
 <h3>Last Post:</h3>
     {% assign first_post = site.posts.first %}
     {{ first_post.date || date_to_utc | date: "%Y-%m-%d" }}
-    <a href="{{ first_post.post_url }}" rel="bookmark">{{ first_post.title }}</a>
+    <a href="{{ first_post.url }}" rel="bookmark">{{ first_post.title }}</a>
     {{ first_post.content | truncate: 500 }}
 </header>
 <article class="v-index-list">
