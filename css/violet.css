@@ -1,0 +1,121 @@
+/**
+ * @name:               Violet.css
+ * @author:             PIZn(pizner@gmail.com)
+ * @Create date:        2011-12-17
+ * @Version:            2.0
+ */
+/* 重置浏览器CSS */
+/* 防止用户自定义背景颜色对网页的影响 */
+html{ color:#666; background:#fefefe; }
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { margin:0;padding:0; }
+
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
+
+/* 要注意表单元素并不继续父级 font 的问题 */
+body,button,input,select,textarea{ font:12px/1.5 helvetica,arial,freesans,clean,sans-serif; }
+input,select,textarea{ font-size:100%; }
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table{ border-collapse:collapse;border-spacing:0; }
+
+/* IE bug fixed: th 不继承 text-align*/
+th{ text-align:inherit; }
+
+/* 去除默认边框 */
+fieldset,img,a img{ border:0; }
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe{ display:block; }
+
+/* 去掉 firefox 下此元素的边框 */
+abbr,acronym{ border:0;font-variant:normal; }
+
+/* 一致的 del 样式 */
+del { text-decoration:line-through; }
+
+address,caption,cite,code,dfn,em,th,var { font-style:normal; font-weight:500; }
+
+/* 去掉列表前的标识, li 会继承 */
+ol,ul { list-style:none; }
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,th { text-align:left; } 
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:500; }
+
+q:before,q:after { content:''; }
+
+/* 统一上标和下标 */
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+
+/* 让链接在 hover 状态下显示下划线 */
+a:hover { text-decoration:underline; }
+
+/* 默认显示下划线，保持页面简洁 */ 
+ins,a { text-decoration:none; }
+
+/* 清理浮动 */
+.clear:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.clear { zoom:1; /* for IE6 IE7 */ }
+
+/* 隐藏, 通常用来与 JS 配合 */
+body .hide { display:none; }
+
+/* 设置内联, 减少浮动带来的bug */
+.left,.right { display:inline; }
+.left { float:left; }
+.right { float:right; }
+
+/**
+ * Violet Layout
+ */
+body            { background: #fafafa url(../images/body_bg.jpg) no-repeat 0 0; }
+.violet-top, .violet-bottom
+                { width: 100%; height: 10px; background: #800888; }
+.head           { width: 100%; height: 90px; }
+.header         { margin-left: 15%; width: 800px; height: 90px; }
+.main           { width: 100%; height: auto; }
+.mainer         { margin-left: 15%; margin-bottom: 20px; width: 800px; min-height: 500px; height: auto; }
+.contain        { width: 600px; min-height: 520px; height: auto; padding: 10px 10px; height: auto; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; }
+.aside          { width: 160px; min-height: 300px; height: auto; }
+.foot           { width: 100%; height: 80px; background: #fff; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; }
+.footer         { margin-left: 15%; width: 800px; height: 80px; background: #fefefe url(../images/footer_bg.jpg) no-repeat right 2px;}
+
+/**
+ * Violet Design
+ */
+.v-info         { width: 520px; height: 90px; overflow: hidden; }
+.v-info h1      { margin: 15px 0 0 0; }
+.v-info h1 a    { font: 30px/1.2 Georgia, serif; color: #888; text-decoration: none; }
+.v-info h1 a:hover { color: #800888; }
+.v-info h2      { display: inline; border-top: 1px solid #888; font: 12px/1.5 verdana, serif; color:#999; }
+
+/**
+ * Violet-aside
+ */
+.aside-nav      { margin: 0 0;}
+.aside-nav-item { display: block; margin-bottom: 10px; }
+.aside-nav-item a { display: block; padding: 5px 10px; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; font-size: 14px; vertical-align: middle; color: #888; text-decoration: none; }
+.aside-nav-item a:hover { color: #676767; text-decoration: none; background: #fafafa; border: 1px solid #ebebeb; }
+
+.aside-intro    { width: 140px; height: 280px; padding: 10px 10px; margin: 10px 0; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; }
+
+/**
+ * Violet-index
+ */
+
+/**
+ * Violet-footer
+ */
+.footer-info    { width: 620px; height: 80px; }
+.footer-nav     { padding: 10px 0; border-bottom: 1px solid #e0e0e0; }
+.footer-nav a   { color: #888; text-decoration: none; margin-right: 10px; }
+.footer-nav a:hover { color: #676767; text-decoration: none; border-bottom: 1px dotted #888;  }
+.footer-copyright { text-align: right; color: #888; }
+.footer-copyright a { color: #676767; text-decoration: none; border-bottom: 1px dotted #888; }
+.footer-copyright a:hover { color: #454545; }

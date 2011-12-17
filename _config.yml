@@ -1,10 +1,11 @@
 markdown:         rdiscount
 pygments:         true
 paginate:         6
+plugins:    	 ./_plugins
 
 title:            PIZn's GitHub Blog
-url:              http://www.pizn.me
-feed:             /atom.xml
+url:              http://pizn.github.com/blog
+feed:             /blog/atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
@@ -12,6 +13,5 @@ author:
 description:      "PIZn's another blog. Just to write down some note about work, such css, javascript and html."
 
 copyright:
-    - Design by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>
-    - "&copy; Copyright 2011, PIZn. All Rights Reserved."
-
+    - "Copyright &copy; 2011-2012 PIZn. All rights reserved."
+    - Powered by <a href="http://jekyllrb.com" rel="nofollow" title="Jekyll">Jekyll</a>,Violet theme is a private theme, designed by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>.

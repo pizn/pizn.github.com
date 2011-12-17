@@ -2,29 +2,15 @@
 layout:           default
 titlef:           index
 ---
-<header id="prefile">
-    <h2>I'm PIZn.</h2>
-    <p>Phosphorus,Iodine & Zinc.<g:plusone size="small"></g:plusone></p>
+<header class="v-index-first">
+    {{% assign first_post = site.posts.posts.first %}}
+    <p>xx: {{ first_post.title }}</p>
 </header>
-<article id="post-list">
-    <h3>My GitHub Posts List</h3>
+<article class="v-index-list">
+    <h3>Recently Posts</h3>
     <ul class="posts">
-        {% for post in paginator.posts  %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></li>
+        {% for rpost in site.posts limit:5 offset:1  %}
+        <li><span>{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></li>
         {% endfor %}
     </ul>
-    {% if paginator.total_pages > 1 %}
-        <nav id="pagination">
-            <span class="pages">Pages:&nbsp;</span>
-            <div class="paginator-list">
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                        <span class="num">{{ page }}</span>
-                    {% else %}
-                        <a class="num" href="/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </nav>
-    {% endif %}
 </article>
