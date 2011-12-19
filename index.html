@@ -3,15 +3,17 @@ layout:           default
 titlef:           index
 ---
 <header class="v-index-first">
-<h3>Last Post:</h3>
-    {% assign first_post = site.posts.first %}
-    {{ first_post.date || date_to_utc | date: "%Y-%m-%d" }}
-    <a href="{{ first_post.url }}" rel="bookmark">{{ first_post.title }}</a>
+{% assign first_post = site.posts.first %}
+<h3 class="v-index-tit"><a href="{{ first_post.url }}" title="{{ first_post.title }}" rel="bookmark" >{{ first_post.title }}</a></h3>
+<p class="v-post-info">{{ first_post.date || date_to_utc | date: "%Y-%m-%d" }}</p>
+<article>
     {{ first_post.content | truncate: 500 }}
+    <a href="#" class="v-post-readmore" href="{{ first_post.url }}" rel="bookmark" title="Read More">Read More</a>
+</article>
 </header>
 <article class="v-index-list">
-    <h3>Recently Posts</h3>
-    <ul class="posts">
+    <h3 class="v-index-tit">Recently Posts</h3>
+    <ul class="v-index-list-post">
         {% for rpost in site.posts limit:5 offset:1  %}
         <li><span>{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></li>
         {% endfor %}
