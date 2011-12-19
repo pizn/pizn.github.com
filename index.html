@@ -6,7 +6,7 @@ titlef:           index
 {% assign first_post = site.posts.first %}
 <h3 class="v-index-tit"><a href="{{ first_post.url }}" title="{{ first_post.title }}" rel="bookmark" >{{ first_post.title }}</a></h3>
 <p class="v-post-info">{{ first_post.date || date_to_utc | date: "%Y-%m-%d" }}</p>
-<article>
+<article class="v-post">
     {{ first_post.content | truncate: 500 }}
     <a href="#" class="v-post-readmore" href="{{ first_post.url }}" rel="bookmark" title="Read More">Read More</a>
 </article>

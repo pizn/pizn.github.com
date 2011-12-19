@@ -109,12 +109,14 @@ body            { background: #fafafa url(../images/body_bg.jpg) no-repeat 0 0; 
  * Violet-index
  */
 .v-index-tit    { padding: 5px 0; font: 14px/1.5 arial,serif; color: #568f31; }
-.v-index-tit a  { text-decoration: none; }
+.v-index-tit a  { text-decoration: none; color: #568f31; }
 .v-index-tit a:hover { text-decoration: underline; }
 
 /**
  * Violet-post
  */
+.v-post a       { color: #0595e5; text-decoration: none; }
+.v-post a:hover { color: #c6854b; text-decoration: underline; }
 .v-post-info    { border-top: 1px solid #dedede; font: 12px/1.5 verdana, serif; color: #898989; }
 
 
