@@ -1,0 +1,9 @@
+---
+layout: none
+---
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /works/
+
+Sitemap: {{ site.url }}/sitemap.xml
