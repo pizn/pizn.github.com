@@ -6,4 +6,4 @@ Disallow: /css/
 Disallow: /js/
 Disallow: /works/
 
-Sitemap: http://www.pizn.me/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
