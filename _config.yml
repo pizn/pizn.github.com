@@ -3,9 +3,9 @@ pygments:         true
 paginate:         6
 plugins:    	 ./_plugins
 
-title:            PIZn's GitHub Blog
-url:              http://pizn.github.com/blog
-feed:             /blog/atom.xml
+title:            PIZn
+url:              http://www.pizn.me
+feed:             /atom.xml
 author:
     name:         PIZn
     email:        pizner@gmail.com
