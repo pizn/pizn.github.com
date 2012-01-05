@@ -1,11 +1,7 @@
 ---
 layout:        post
 title:        Git/SVN 常用命令笔记
-category:     test
 ---
-# {{ page.title }}
-2011-11-12 By PIZn @杭州
-
 很久没有更新 GitHub 了，以至于那些熟悉的命令也忘记了。今天更新一下，最基础的一些
 命令，以备以后翻阅。
 加之最近工作团队需要，经常使用 SVN ，所有将 SVN 的常用命令也记在后面。以备后用。

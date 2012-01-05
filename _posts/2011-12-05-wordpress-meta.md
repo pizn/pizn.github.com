@@ -2,9 +2,6 @@
 layout:     post
 title:      Wordpress Custom Fileds
 ---
-##{{ page.title }}
-2011-12-05 By PIZn @杭州
-
 在写文章的时候，底部有一个 Custom Fields 的功能。name 对应 post_meta 的 key ，
 value 就是 post_meta 的 value 了。
 

@@ -1,11 +1,7 @@
 ---
 layout:     post
 title:      为博客添加 DisQus 评论
-category:   blog
 ---
-# {{ page.title }}
-2011-11-15 By PIZn @杭州
-
 昨晚小试了下 DisQus ，觉得很好用。做下总结。
 
 ###如何开始

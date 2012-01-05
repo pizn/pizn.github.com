@@ -1,11 +1,7 @@
 ---
 layout:         post
 title:          Jekyll 的一些函数和技巧
-date:           2011-09-24
-category:       jekyll
 ---
-#{{ page.title }}
-{{ page.date | date:"%B %d, %Y" }} By PIZn @杭州
 ##一些函数
 循环输出 3 篇文章
 <pre class="js" name="colorcode">

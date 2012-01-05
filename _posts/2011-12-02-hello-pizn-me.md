@@ -2,9 +2,6 @@
 layout:     post
 title:      PIZn Blog 使用独立域名和 Blog Repo 相关事宜
 ---
-#{{ page.title }}
-2011-12-02 By PIZn @杭州
-
 ###GitHub Pages 使用独立域名
 
 恩，今天为自己的 GitHub 博客更换了新域名 www.pizn.me 更换的方法很简单：

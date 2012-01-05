@@ -2,9 +2,6 @@
 layout:         post
 title:          mac 下 xampp 的安全设置
 ---
-#{{ page.title }}
-2011-11-22 By PIZn @杭州
-
 很早之前使用 xampp 是在 win 下面的，很多功能基本都是默认设置好的。今儿在 Mac 下
 安装个 xampp ，随后遇到这样一个问题：
 <pre class="js" name="colorcode">

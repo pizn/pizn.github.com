@@ -2,8 +2,6 @@
 layout:     post
 title:      GitHub API v2 笔记
 ---
-##{{ page.title }}
-
 我喜欢折腾，这几天折腾 GitHub API，用的挺爽，且记下 v2 版本中一些常用的东西。
 
 ###基本

@@ -2,9 +2,6 @@
 layout:        post
 title:          为 DlHighlight 的 Helpers 增加行数
 ---
-#{{ page.title }}
-2011-11-25 By PIZn @杭州
-
 今天下午在寻找一些合适的代码高亮 JS 插件，发现有几款挺不错的。于是下了下来看源代
 码，折腾折腾了。
 

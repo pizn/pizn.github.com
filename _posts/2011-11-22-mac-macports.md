@@ -2,8 +2,6 @@
 layout:         post
 title:          mac 安装 macPorts
 ---
-#{{ page.title }}
-
 这里只介绍通过 Source 来安装的方法
 <pre class="js" name="colorcode">
 //下载 MacPorts

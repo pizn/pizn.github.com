@@ -100,7 +100,7 @@ body            { background: #fafafa url(../images/body_bg.jpg) no-repeat 0 0; 
  */
 .aside-nav      { margin: 0 0;}
 .aside-nav-item { display: block; margin-bottom: 10px; }
-.aside-nav-item a { display: block; padding: 5px 10px; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; font-size: 14px; vertical-align: middle; color: #888; text-decoration: none; }
+.aside-nav-item a { display: block; padding: 5px 10px; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; font-size: 12px; vertical-align: middle; color: #888; text-decoration: none; }
 .aside-nav-item a:hover { color: #676767; text-decoration: none; background: #fafafa; border: 1px solid #ebebeb; }
 
 .aside-intro    { width: 140px; height: 280px; padding: 10px 10px; margin: 10px 0; border: 1px solid #efefef; -moz-border-radius: 5px 5px; -webkit-border-radius: 5px 5px; border-radius: 5px 5px; background: #fefefe; }

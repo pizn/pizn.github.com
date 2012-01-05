@@ -2,9 +2,6 @@
 layout:         post
 title:          安装 node.js
 ---
-#{{ page.title }}
-2011-11-24 By PIZn @杭州
-
 今天开始折腾 Node.js. 第一步，如何安装。
 
 ###Mac 上的安装方法

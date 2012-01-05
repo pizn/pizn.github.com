@@ -2,9 +2,6 @@
 layout:       post
 title:        window 下建立 github 连接
 ---
-#{{ page.title }}
-2011-10-02 By PIZn @杭州
-
 在 window 下搭建 github 连接。
 ###前提
 这个前提还是比较简单的，你需要有一个 email，然后在 GitHub 上注册一个账户。

@@ -2,9 +2,6 @@
 layout:         post
 title:          Hello Node.js
 ---
-#{{ page.title }}
-2011-11-24 By PIZn @杭州
-
 在这里记下第一个 node.js
 <pre name="colorcode" class="js">
 var http = require('http');

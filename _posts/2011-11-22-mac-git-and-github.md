@@ -2,9 +2,6 @@
 layout:         post
 title:          在 mac 上使用 Git 和 GitHub 连接
 ---
-#{{ page.title }}
-2011-11-22 By PIZn @杭州
-
 记得之前写过一篇 win 下面使用 Git 的文章，今天写下一篇在 mac 下面的。
 
 ###首先，需要在 mac 下安装 git.

@@ -2,9 +2,6 @@
 layout:         post
 title:          mac 本地按安装 jekyll
 ---
-#{{ page.title }}
-2011-11-30 By PIZn @杭州
-
 本地安装 Jekyll 其实很简单的，继续做笔记。
 
 如果你的本地已经安装了 gem ，那么你可以通过下面的方法来安装 jekyll , 在终端输入
