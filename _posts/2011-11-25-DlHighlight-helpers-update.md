@@ -1,6 +1,8 @@
 ---
 layout:        post
 title:          为 DlHighlight 的 Helpers 增加行数
+description:    为 DlHighlight 的代码高亮插件重新编写 HELPERS 函数，解决 ie 的bug。
+keywords: DlHighlight, javascript
 ---
 今天下午在寻找一些合适的代码高亮 JS 插件，发现有几款挺不错的。于是下了下来看源代
 码，折腾折腾了。

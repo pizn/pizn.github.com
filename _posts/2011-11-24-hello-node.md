@@ -1,6 +1,8 @@
 ---
 layout:         post
 title:          Hello Node.js
+description:    Node.js 的应用已经很广泛了，今天小试了下。
+keywords: node.js
 ---
 在这里记下第一个 node.js
 <pre name="colorcode" class="js">

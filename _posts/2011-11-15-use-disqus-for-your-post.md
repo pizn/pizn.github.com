@@ -1,6 +1,8 @@
 ---
 layout:     post
 title:      为博客添加 DisQus 评论
+description: DisQus 是一款很好的社交评论插件，只要在你的页面加上一段 js ，在你的DisQus 账户中就可以很方便地查看别人的评论。
+keywords: DisQus
 ---
 昨晚小试了下 DisQus ，觉得很好用。做下总结。
 

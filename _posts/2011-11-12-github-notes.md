@@ -1,6 +1,8 @@
 ---
 layout:        post
 title:        Git/SVN 常用命令笔记
+description:    很久没有更新 GitHub 了，以至于那些熟悉的命令也忘记了。今天更新一下，把最基础的内容记下。
+keywords: git, svn
 ---
 很久没有更新 GitHub 了，以至于那些熟悉的命令也忘记了。今天更新一下，最基础的一些
 命令，以备以后翻阅。

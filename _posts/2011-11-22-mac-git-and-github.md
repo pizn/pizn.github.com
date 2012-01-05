@@ -1,6 +1,8 @@
 ---
 layout:         post
 title:          在 mac 上使用 Git 和 GitHub 连接
+description:    在 mac 下连接 GitHub 的方法。
+keywords: mac, GitHub, git
 ---
 记得之前写过一篇 win 下面使用 Git 的文章，今天写下一篇在 mac 下面的。
 

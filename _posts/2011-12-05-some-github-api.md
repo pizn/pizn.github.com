@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      GitHub API v2 笔记
+description:    我喜欢折腾，这几天折腾 GitHub API，用的挺爽，且记下 v2 版本中一些常用的东西。
+keywords: GitHub, GitHub API
 ---
-我喜欢折腾，这几天折腾 GitHub API，用的挺爽，且记下 v2 版本中一些常用的东西。
-
 ###基本
 1.所有的 API 链接采用 http 协议而且开始于下面的格式:
 <pre class="html" name="colorcode">

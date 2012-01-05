@@ -1,6 +1,8 @@
 ---
 layout:         post
 title:          mac 安装 macPorts
+description:    mac 下安装 MacPorts 的方法。
+keywords: mac, MacPorts, install MacPorts
 ---
 这里只介绍通过 Source 来安装的方法
 <pre class="js" name="colorcode">

@@ -1,6 +1,8 @@
 ---
 layout:     post
 title:      PIZn Blog 使用独立域名和 Blog Repo 相关事宜
+description: 我的 github 博客使用新域名了！
+keywords: pizn.me, GitHub, site
 ---
 ###GitHub Pages 使用独立域名
 

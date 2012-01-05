@@ -1,10 +1,9 @@
 ---
 layout:     post
 title:      Wordpress Custom Fileds
+description:    在写文章的时候，底部有一个 Custom Fields 的功能。name 对应 post_meta 的 key ，value 就是 post_meta 的 value 了。
+keywords: Wordpress, Custom Fileds, function, php
 ---
-在写文章的时候，底部有一个 Custom Fields 的功能。name 对应 post_meta 的 key ，
-value 就是 post_meta 的 value 了。
-
 ###简单应用
 
 每一篇文章允许多个 key 和 value，要在 loop 循环里面输出。最简单的输出例子：

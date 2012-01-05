@@ -1,6 +1,8 @@
 ---
 layout:         post
 title:          安装 node.js
+description:    安装 Node.js 的步骤。
+keywords: Node.js, install
 ---
 今天开始折腾 Node.js. 第一步，如何安装。
 

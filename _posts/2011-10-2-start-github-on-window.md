@@ -1,6 +1,8 @@
 ---
 layout:       post
 title:        window 下建立 github 连接
+description:    在 window 下如何使用 GitHub 呢？这篇文章一步一步教你。
+keywords: GitHub, window
 ---
 在 window 下搭建 github 连接。
 ###前提
