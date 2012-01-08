@@ -1,17 +1,12 @@
-markdown:         rdiscount
-pygments:         true
-paginate:         6
-plugins:    	 ./_plugins
+markdown: rdiscount
+pygments: true
+plugins: ./_plugins
 
-title:            PIZn
-url:              http://www.pizn.me
-feed:             /atom.xml
+title: PIZn
+url: http://www.pizn.me
+feed: /atom.xml
 author:
-    name:         PIZn
-    email:        pizner@gmail.com
-    twitter:      twitter.com/piznlin
-description:      "PIZn's another blog. Just to write down some note about work, such css, javascript and html."
-
-copyright:
-    - "Copyright &copy; 2011-2012 PIZn. All rights reserved."
-    - Powered by <a href="http://jekyllrb.com" rel="nofollow" title="Jekyll">Jekyll</a>,Violet theme is a private theme, designed by <a href="http://www.pizn.net" rel="friend" title="pizn" target="_blank">PIZn</a>.
+    name: PIZn
+    email: pizner@gmail.com
+    twitter: twitter.com/piznlin
+description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
