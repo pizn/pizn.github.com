@@ -1,21 +1,49 @@
 ---
-layout:           default
-titlef:           index
+layout: default
+title: Index
+description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+keywords: PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek
+isIndex: true
 ---
-<header class="v-index-first">
-{% assign first_post = site.posts.first %}
-<h3 class="v-index-tit"><a href="{{ first_post.url }}" title="{{ first_post.title }}" rel="bookmark" >{{ first_post.title }}</a></h3>
-<p class="v-post-info">{{ first_post.date || date_to_utc | date: "%Y-%m-%d" }}</p>
-<article class="v-post">
-    {{ first_post.content | truncate: 500 }}
-    <a href="#" class="v-post-readmore" href="{{ first_post.url }}" rel="bookmark" title="Read More">Read More</a>
-</article>
-</header>
-<article class="v-index-list">
-    <h3 class="v-index-tit">Recently Posts</h3>
-    <ul class="v-index-list-post">
-        {% for rpost in site.posts limit:5 offset:1  %}
-        <li><span>{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></li>
-        {% endfor %}
-    </ul>
-</article>
+	<div class="banner">
+        <div class="ui-grid-25 ui-grid-bottom ui-grid-right">
+            <div class="ui-grid-23 banner-cnt" id="J_banner">
+            </div><!-- //banner-cnt -->
+        </div>
+    </div><!-- //banner -->
+
+    <section class="content fn-clear">
+		<div class="ui-grid-25 ui-grid-right content-top">
+            <section class="ui-grid-13 violet-journal">
+                <h4 class="v-section-tit">Last Journal</h4>
+                {% for rpost in site.posts limit:5 %}
+                <article class="v-excerpt fn-clear">
+                    <div class="ui-grid-5 ui-grid-bottom">
+                        <h3 class="v-excerpt-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
+                        <p class="v-date"><span>&#8227;</span>{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</p>
+                    </div>
+                    <div class="ui-grid-8 ui-grid-right v-excerpt-det">
+                        <p>{{ rpost.description }}</p>
+                        <p class="v-more"><a href="{{ rpost.url }}" title="Read More" rel="bookmark"><span>&#10149;</span>Read More</a></p>
+                    </div>
+                </article><!-- //v-post-excerpt -->
+                {% endfor %}
+                {% for npost in site.posts limit:3 offset:5  %}             
+                <article class="v-post-list fn-clear">
+                    <p class="v-date"><span>&#8227;</span>{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</p>
+                    <h3 class="v-post-title"><a href="{{ npost.url }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></h3>
+ 	            </article><!-- //v-post-list -->
+                {% endfor %}
+            </section><!-- //Journal -->
+            <section class="ui-grid-6">
+                <div class="violet-quotes">
+                    <h4 class="v-section-tit">Design Quote</h4>
+                    {% include quote.html %}
+                </div><!-- //violet-quotes -->
+                <div class="violet-project" id="J_porject">
+                    <h4 class="v-section-tit">GitHub Project</h4>
+                </div>
+            </section><!-- //Quotes -->
+            {% include aside.html %}
+        </div>
+    </section><!-- //content -->

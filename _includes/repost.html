@@ -1,0 +1,10 @@
+				<div class="violet-aside-post">
+                	<h4 class="v-section-tit">Recent Posts</h4>
+                	<ul>
+                	{% for rpost in site.posts limit:6  %}   
+                		<li class="v-aside-li">
+                			<span class="v-span">&#8227;</span><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
+                		</li>              	      	            
+                	{% endfor %}
+                	</ul>  
+                </div>
