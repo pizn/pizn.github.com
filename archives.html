@@ -1,14 +1,40 @@
 ---
-layout:           default
-title:            Archives
+layout: default
+title: Archives
+description: PIZn 的文章归档。在这里你可以找到 PIZn.Me 上的所有文章列表。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+keywords: PIZn, GitHub, Archives, mac, css, html, javascript, violet, Jekyll, plugins, wordpress
 ---
-<article id="post-list">
-  <h3>{{ page.title }}<span>(&nbsp;{{ site.posts | size }} posts.&nbsp;)</span></h3>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span>&nbsp;&raquo;&nbsp;<a href="{{ post.url }}" title="{{ post.title }}" alt="bookmark">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</article>
-
-
+	<section class="content fn-clear">
+        <div class="ui-grid-25 ui-grid-right content-top">
+            <section class="ui-grid-19 violet-post">
+                <h4 class="v-section-tit">Archives&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span></h4>                
+				{% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+				<div class="violet-archive fn-clear">
+					<p class="ui-grid-2 year">{{ post_year1 }}</p>
+					<div class="ui-grid-17 ui-grid-right ui-grid-bottom">
+					{% for post in site.posts %}
+						{% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+						{% if post_year1 != post_year2 %}
+							{% assign post_year1 = post_year2 %}
+					</div>
+				</div><!-- //violet-archive -->			
+				<div class="violet-archive fn-clear">
+					<p class="ui-grid-2 year">{{ post_year1 }}</p>
+					<div class="ui-grid-17 ui-grid-right ui-grid-bottom">
+						{% endif %}
+						<article class="article fn-clear">
+                            <div class="ui-grid-6 v-archive-tit">
+                                <p class="v-date"><span>&#8227;</span>{{ post.date | date: '%b %d' }}</p>
+                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            </div>
+                            <div class="ui-grid-11 v-archive-det">
+                                <p>{{ post.description }}</p>
+                            </div>
+                        </article><!-- //archive -->
+					{% endfor %}
+					</div>
+				</div><!-- //violet-archive -->            
+            </section><!-- //violet-post -->
+            {% include aside.html %}
+        </div>
+    </section><!-- //content -->
