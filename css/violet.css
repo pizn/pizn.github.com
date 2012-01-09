@@ -532,38 +532,38 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 
 /** violet-photo **/
 .violet-photo {
-	margin: 15px 0 10px;
-	height:  auto;
+    margin: 15px 0 10px;
+    height:  auto;
 }
 .violet-photo p.violet-photo-img {
-	position: relative;
-	padding:  15px 0 0;
+    position: relative;
+    padding:  15px 0 0;
 }
 .violet-photo p.violet-photo-img img {
-	padding: 3px 3px;
-	border: 1px solid #e8e8e8;
-	box-shadow: 0 0 4px #d0d0d0;
+    padding: 3px 3px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 0 4px #d0d0d0;
 }
 .violet-photo p.violet-photo-img span {
-	display: block;
-	height: 22px;
-	line-height: 22px;
-	padding: 0 5px;
-	background: rgba(0, 0, 0, 0.5);
-	border-top: 1px solid #000;
-	border-left: 1px solid #000;
-	color: #e8e8e8;
-	position: absolute;
-	bottom: 8px;
-	right: 4px;
-	border-radius: 8px 0 0 0;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    color: #e8e8e8;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    border-radius: 8px 0 0 0;
 }
 /** violet-aside **/
 .violet-aside-post {
-	margin-top: 15px; margin-bottom: 20px; height: auto;
+    margin-top: 15px; margin-bottom: 20px; height: auto;
 }
 .violet-aside-post li {
-	margin: 10px 0 0;
+    margin: 10px 0 0;
 }
 .violet-aside-post .v-aside-li { border-bottom: 1px dotted #d8d8d8; }
 .violet-aside-post .v-aside-li a { font-family: verdana, \9ED1\4F53, sans-serif; word-wrap:break-word; word-break:break-all; }
@@ -721,105 +721,105 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     animation-name: fadeIn;
 }
 @-webkit-keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(-146px);
-	}
-	30% {
-		opacity: 1;
-		-webkit-transform: translateX(8px);
-	}
-	100% {
-		-webkit-transform: translateX(0);
-	}
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-146px);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: translateX(8px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
 }
 @-moz-keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		-moz-transform: translateX(-146px);
-	}
-	30% {
-		opacity: 1;
-		-moz-transform: translateX(8px);
-	}
-	100% {
-		-moz-transform: translateX(0);
-	}
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(-146px);
+    }
+    30% {
+        opacity: 1;
+        -moz-transform: translateX(8px);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
 }
 @-ms-keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		-ms-transform: translateX(-146px);
-	}
-	30% {
-		opacity: 1;
-		-ms-transform: translateX(8px);
-	}
-	100% {
-		-ms-transform: translateX(0);
-	}
+    0% {
+        opacity: 0;
+        -ms-transform: translateX(-146px);
+    }
+    30% {
+        opacity: 1;
+        -ms-transform: translateX(8px);
+    }
+    100% {
+        -ms-transform: translateX(0);
+    }
 }
 
 @-o-keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		-o-transform: translateX(-146px);
-	}
-	30% {
-		opacity: 1;
-		-o-transform: translateX(8px);
-	}
-	100% {
-		-o-transform: translateX(0);
-	}
+    0% {
+        opacity: 0;
+        -o-transform: translateX(-146px);
+    }
+    30% {
+        opacity: 1;
+        -o-transform: translateX(8px);
+    }
+    100% {
+        -o-transform: translateX(0);
+    }
 }
 @keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-146px);
-	}
-	30% {
-		opacity: 1;
-		transform: translateX(8px);
-	}
-	100% {
-		transform: translateX(0);
-	}
+    0% {
+        opacity: 0;
+        transform: translateX(-146px);
+    }
+    30% {
+        opacity: 1;
+        transform: translateX(8px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 .bounceInLeft {
-	-webkit-animation-name: bounceInLeft;
-	-moz-animation-name: bounceInLeft;
-	-ms-animation-name: bounceInLeft;
-	-o-animation-name: bounceInLeft;
-	animation-name: bounceInLeft;
+    -webkit-animation-name: bounceInLeft;
+    -moz-animation-name: bounceInLeft;
+    -ms-animation-name: bounceInLeft;
+    -o-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
 }
 /** violet-face2face **/
 .violet-face2face {
-	margin: 15px 0;
-	width: 730px;
-	height: 200px;
-	background: url(/images/faceall.jpg) no-repeat 0 0;
-	box-shadow: 3px 3px 6px #dedede;
+    margin: 15px 0;
+    width: 730px;
+    height: 200px;
+    background: url(/images/faceall.jpg) no-repeat 0 0;
+    box-shadow: 3px 3px 6px #dedede;
 }
 .violet-face2face ul li {
-	float: left;
-	width: 146px;
-	height: 100px;
-	position: relative;
-	cursor: pointer;
-	
+    float: left;
+    width: 146px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    
 }
 .violet-face2face ul li span {
-	display: none;
-	position: absolute;
-	left: 146px;
-	top: 0;	
-	padding: 10px 10px;
-	background: rgba(0, 0, 0, 0.86);
-	width: 126px;
-	height: 80px;
-	color: #fefefe;
-	-webkit-backface-visibility: hidden;
+    display: none;
+    position: absolute;
+    left: 146px;
+    top: 0; 
+    padding: 10px 10px;
+    background: rgba(0, 0, 0, 0.86);
+    width: 126px;
+    height: 80px;
+    color: #fefefe;
+    -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -843,19 +843,19 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     font-family: font-family: verdana, \9ED1\4F53, sans-serif;
 }
 .violet-face2face ul li.last span {
-	left: -146px;
-	top: 0;
+    left: -146px;
+    top: 0;
 }
 .violet-face2face ul li.v-f2f-hover {
-	background: url(/images/faceall.jpg) no-repeat 0 -200px;
+    background: url(/images/faceall.jpg) no-repeat 0 -200px;
 }
 .violet-face2face ul li.v-f2f-hover span {
-	display: block;
-	-webkit-animation-name: bounceInLeft;
-	-moz-animation-name: bounceInLeft;
-	-ms-animation-name: bounceInLeft;
-	-o-animation-name: bounceInLeft;
-	animation-name: bounceInLeft;
+    display: block;
+    -webkit-animation-name: bounceInLeft;
+    -moz-animation-name: bounceInLeft;
+    -ms-animation-name: bounceInLeft;
+    -o-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
 }
 /** violet-post **/
 .violet-post { margin-left: 60px; margin-top: 15px; height: auto; }
@@ -925,6 +925,9 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
  color: #f8f8f8;
  border-radius: 2px 2px;
 }
+.DlHighlight code {
+    background: none;
+}
 /** colorcode **/
 .DlHighlight .operand { color: #e8f8f2; }
 .DlHighlight .keyword { color: #65d7ed; }
@@ -971,10 +974,10 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-entry .title { font-family: "Times New Roman",Times,serif; margin-bottom: 4px; padding: 0 0; font-size: 20px; line-height: 32px; font-weight: 700; color: #489620; }
 .v-entry .description { padding: 8px 0; font-style: italic; color: #888; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #d0d0d0; text-indent: 24px; }
 .v-pagination {
-	height: 30px;
-	border-top: 1px solid #e8e8e8;
-	margin: 10px 10px 10px 0;
-	background:  #fbfbfb;
+    height: 30px;
+    border-top: 1px solid #e8e8e8;
+    margin: 10px 10px 10px 0;
+    background:  #fbfbfb;
 }
 .v-pagination .prev { line-height: 30px; float: left;}
 .v-pagination .next { line-height: 30px; float: right;}
@@ -999,22 +1002,22 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-plugin-desc h4 { border-bottom: 1px dotted #d5d5d5; }
 .v-plugin-desc p, .v-plugin-meta p { font-size: 12px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; line-height: 18px; padding-bottom: 10px; }
 .v-plugin-desc p img, .v-plugin-meta p img { padding: 1px 1px;
-	border: 1px solid #e0e0e0;
-	background: #fff; }
+    border: 1px solid #e0e0e0;
+    background: #fff; }
 .v-plugin-desc ul, .v-plugin-meta ul { margin-left: 15px; margin-bottom: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; list-style-type: square; }
 .v-plugin-desc ul li { line-height: 21px; }
 .v-plugin-desc .violet-download {
-	margin: 0 10px;
-	padding: 2px 4px;
-	background: #1a9dba;
-	color: #fff;
-	border-radius: 5px 5px;
+    margin: 0 10px;
+    padding: 2px 4px;
+    background: #1a9dba;
+    color: #fff;
+    border-radius: 5px 5px;
 }
 .v-plugin-desc .violet-download:hover { text-decoration: none; color: #fefefe; background: #136e83; }
 .v-plugin-desc .v-plugins-screen {
-	width: 470px;
-	height:  280px;
-	margin-bottom: 10px;
+    width: 470px;
+    height:  280px;
+    margin-bottom: 10px;
 }
 .v-plugin-desc .v-plugins-screen ul {
     position:absolute; /* required */
@@ -1030,11 +1033,11 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     margin:0 10px 0 0;
 }
 .v-plugin-desc .v-plugins-screen ul li img {
-	width: 466px;
-	height: 245px;
-	padding: 1px 1px;
-	border: 1px solid #e0e0e0;
-	background: #fff;
+    width: 466px;
+    height: 245px;
+    padding: 1px 1px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
 }
 .v-plugin-desc .v-plugins-screen .mask {
     position:relative; /* required */
@@ -1042,33 +1045,33 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     width:470px; /* required */
 }
 .v-plugin-desc .v-plugins-screen .pagination-links {
-	float: right;
+    float: right;
     list-style:none;
     margin: 10px 0 0;
     padding:0;   
     height: 20px;
 }
 .v-plugin-desc .v-plugins-screen .pagination-links li {
-	float:  left;
+    float:  left;
     display:block;
     margin: 0 0 0 10px;
     width: 14px;
     height:  14px;
     font-size: 12px;
     line-height: 14px;
-	color: #666;
-	background: #fff;
-	border-radius: 8px 8px;
-	text-align: center;
-	font-weight: 400;
-	box-shadow: 0 0 3px #b8b8b8;
+    color: #666;
+    background: #fff;
+    border-radius: 8px 8px;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: 0 0 3px #b8b8b8;
 }
 .v-plugin-desc .v-plugins-screen .pagination-links li a {
-	color: #444;
+    color: #444;
 }
 .v-plugin-desc .v-plugins-screen .pagination-links li a:hover {
-	color: :#888;
-	text-decoration: none;
+    color: :#888;
+    text-decoration: none;
 }
 .v-plugin-desc .v-plugins-screen .pagination-links li.current {
     background: #f10072;
@@ -1076,7 +1079,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     box-shadow: 0 0 3px #b8b8b8;
 }
 .v-plugin-desc .v-plugins-screen .pagination-links li.current a{
-	 color: #fefefe;
+     color: #fefefe;
 }
 
 /** violet-work **/
