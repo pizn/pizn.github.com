@@ -858,7 +858,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     animation-name: bounceInLeft;
 }
 /** violet-post **/
-.violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 580px; }
+.violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 600px; }
 .violet-post-det { padding: 20px 0; }
 .violet-post-det .day { display: block; font-family: "Times New Roman",Times,serif; font-size: 22px; line-height: 32px; color: #800888; font-style: italic; }
 .violet-post-det .year { font-family: "Times New Roman",Times,serif; display: block; line-height: 18px; font-size: 12px; font-style: italic; color: #888; }
@@ -981,6 +981,11 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 }
 .v-pagination .prev { line-height: 30px; float: left;}
 .v-pagination .next { line-height: 30px; float: right;}
+
+/** violet-comment **/
+.violet-comment {
+    padding-right: 10px;
+}
 
 /** violet-archive **/
 .violet-archive { padding: 20px 0 0; }

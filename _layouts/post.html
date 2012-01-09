@@ -2,7 +2,7 @@
 layout: default
 isPost: true
 ---
-	<section class="content fn-clear">
+    <section class="content fn-clear">
         <div class="ui-grid-25 ui-grid-right content-top">
             <section class="ui-grid-19 violet-post">
                 <h4 class="v-section-tit">
@@ -23,15 +23,17 @@ isPost: true
                             <p class="description">{{ page.description }}</p>
                             {{ content }}
                         </div>
-                       	<nav class="v-pagination">
-    						{% if page.previous %}
-      						<a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
-    						{% endif %}
-    						{% if page.next %}
-   							<a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
-    						{% endif %}
- 						 </nav>
- 						 <div id="disqus_thread"></div>
+                        <nav class="v-pagination">
+                            {% if page.previous %}
+                            <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+                            {% endif %}
+                            {% if page.next %}
+                            <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+                            {% endif %}
+                         </nav>
+                         <div class="violet-comment">
+                             <div id="disqus_thread"></div>
+                         </div><!-- //violet-comment -->
                     </div>
                 </div><!-- //violet-archive -->
             </section><!-- //violet-post -->
