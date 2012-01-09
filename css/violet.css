@@ -917,16 +917,13 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
   color: #e8e8e8;
   border-radius: 3px 3px 3px 3px;
 }
-.v-entry code {
+.v-entry .v-code {
  margin: 0 3px;
  padding: 0 3px;
  background: #a0a0a0;
  font: 12px Monaco,serif;
  color: #f8f8f8;
  border-radius: 2px 2px;
-}
-.DlHighlight code {
-    background: none;
 }
 /** colorcode **/
 .DlHighlight .operand { color: #e8f8f2; }
