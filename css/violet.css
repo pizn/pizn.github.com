@@ -1002,7 +1002,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-plugin-desc, .v-plugin-meta { height: auto; margin-bottom: 0; }
 .v-plugin-desc h4, .v-plugin-meta h4 { margin-bottom: 10px; font-family: "Times New Roman",Times,serif; font-size: 14px; line-height: 24px; font-weight: 700; color: #8f006d; }
 .v-plugin-desc h4 { border-bottom: 1px dotted #d5d5d5; }
-.v-plugin-desc p, .v-plugin-meta p { font-size: 13px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; line-height: 18px; padding-bottom: 10px; }
+.v-plugin-desc p, .v-plugin-meta p { font-size: 13px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; padding-bottom: 10px; }
 .v-plugin-desc p img, .v-plugin-meta p img { padding: 1px 1px;
     border: 1px solid #e0e0e0;
     background: #fff; }
