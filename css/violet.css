@@ -868,7 +868,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-entry h3,
 .v-entry h4,
 .v-entry h5,
-.v-entry h6 { margin: 0; padding: 0; font-family: "Times New Roman",Times,serif;}
+.v-entry h6 { margin: 0; padding: 0; font-family: "Times New Roman","Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun,serif;}
 .v-entry h1 { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #489620; font-weight: 700; border-bottom: 1px solid #e8e8e8; }
 .v-entry h2 { margin-bottom: 20px; color: #489620; padding: 3px 0; font-size: 18px; line-height: normal; border-bottom: 1px solid #e8e8e8; font-family: 700; }
 .v-entry h3 { font-size: 16px; font-weight: 700; line-height: 26px; color: #489620; border-bottom: 1px solid #e8e8e8; margin-bottom: 18px; margin-top: 1.5em; }
