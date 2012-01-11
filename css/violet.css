@@ -862,24 +862,24 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-post-det { padding: 20px 0; }
 .violet-post-det .day { display: block; font-family: "Times New Roman",Times,serif; font-size: 22px; line-height: 32px; color: #800888; font-style: italic; }
 .violet-post-det .year { font-family: "Times New Roman",Times,serif; display: block; line-height: 18px; font-size: 12px; font-style: italic; color: #888; }
-.v-entry { padding-right: 10px; color: #555; font-family: verdana, \9ED1\4F53, sans-serif; }
+.v-entry { padding-right: 10px; color: #555; font-family: verdana, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .v-entry h1,
 .v-entry h2,
 .v-entry h3,
 .v-entry h4,
 .v-entry h5,
 .v-entry h6 { margin: 0; padding: 0; font-family: "Times New Roman",Times,serif;}
-.v-entry h1 { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 0.8em; color: #489620; font-weight: 700; border-bottom: 1px solid #e8e8e8; }
-.v-entry h2 { margin-bottom: 0.7em; color: #489620; padding: 3px 0; font-size: 18px; line-height: normal; border-bottom: 1px solid #e8e8e8; font-family: 700; }
-.v-entry h3 { font-size: 16px; font-weight: 700; line-height: 26px; color: #489620; border-bottom: 1px solid #e8e8e8; margin-bottom: 0.8em; margin-top: 1.5em; }
-.v-entry h4 { margin-bottom: 0.8em; font-size: 14px; font-weight: 700; color: #489620; line-height: 26px; text-transform: uppercase; }
-.v-entry h5 { margin-bottom: 0.5em; color: #444; font-size: 14px; line-height: 26px; text-transform: uppercase; }
+.v-entry h1 { padding: 3px 0; font-size: 20px; line-height: normal; margin-bottom: 20px; color: #489620; font-weight: 700; border-bottom: 1px solid #e8e8e8; }
+.v-entry h2 { margin-bottom: 20px; color: #489620; padding: 3px 0; font-size: 18px; line-height: normal; border-bottom: 1px solid #e8e8e8; font-family: 700; }
+.v-entry h3 { font-size: 16px; font-weight: 700; line-height: 26px; color: #489620; border-bottom: 1px solid #e8e8e8; margin-bottom: 18px; margin-top: 1.5em; }
+.v-entry h4 { margin-bottom: 18px; font-size: 14px; font-weight: 700; color: #489620; line-height: 26px; text-transform: uppercase; }
+.v-entry h5 { margin-bottom: 18px; color: #444; font-size: 14px; line-height: 26px; text-transform: uppercase; }
 .v-entry h6 { font-size: 12px; font-weight: 700; margin-bottom: 0.5em; color: #444; line-height: 26px; }
 .v-entry > h2:first-child, .v-entry > h1:first-child, .v-entry > h1:first-child + h2 { border: 0 none; }
-.v-entry p { font-size: 12px; line-height: 1.8em; margin-bottom: 0.8em; text-indent: 24px; }
+.v-entry p { font-size: 12px; line-height: 22px; margin-bottom: 15px; text-indent: 24px; }
 .v-entry > p:first-child { margin: 0.8em 0; text-indent: 0; }
 .v-entry ul,
-.v-entry ol { padding-bottom: 10px; margin-left: 24px; margin-top: 0.6em; }
+.v-entry ol { padding-bottom: 15px; margin-left: 24px; margin-top: 0.6em; }
 .v-entry ul li,
 .v-entry ol li { font-size: 12px; color: #555; margin: 0.5em 0; }
 .v-entry ul li { list-style-type: square; }
