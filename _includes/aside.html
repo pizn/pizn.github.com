@@ -1,12 +1,12 @@
-		<aside class="ui-grid-4 ui-grid-right">
+        <aside class="ui-grid-4 ui-grid-right">
                 {% if(page.isContact) %}
-                	<section class="violet-photo">
-                		<h4 class="v-section-tit">Who I am ?</h4>
-                		<p class="violet-photo-img"><img src="/images/whoiam.jpg" alt="This is PIZn" /><span>Photo By 2011.7.24</span></p>
-                	</section>
-               	 	{% include repost.html %}
-                {% else %}               	
-                	{% include face.html %}
+                    <section class="violet-photo">
+                        <h4 class="v-section-tit">Who I am ?</h4>
+                        <p class="violet-photo-img"><img src="/images/whoiam.jpg" width="142px" height="192px" alt="This is PIZn" /><span>Photo By 2011.7.24</span></p>
+                    </section>
+                    {% include repost.html %}
+                {% else %}                  
+                    {% include face.html %}
                 {% endif %}
                 {% include follow.html %}
                 
