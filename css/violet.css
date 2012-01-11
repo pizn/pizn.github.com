@@ -1046,43 +1046,12 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     overflow:hidden; /* required */
     width:470px; /* required */
 }
-.v-plugin-desc .v-plugins-screen .pagination-links {
-    float: right;
-    list-style:none;
-    margin: 10px 0 0;
-    padding:0;   
-    height: 20px;
-}
-.v-plugin-desc .v-plugins-screen .pagination-links li {
-    float:  left;
-    display:block;
-    margin: 0 0 0 10px;
-    width: 14px;
-    height:  14px;
-    font-size: 13px;
-    line-height: 14px;
-    color: #666;
-    background: #fff;
-    border-radius: 8px 8px;
-    text-align: center;
-    font-weight: 400;
-    box-shadow: 0 0 3px #b8b8b8;
-}
-.v-plugin-desc .v-plugins-screen .pagination-links li a {
-    color: #444;
-}
-.v-plugin-desc .v-plugins-screen .pagination-links li a:hover {
-    color: :#888;
-    text-decoration: none;
-}
-.v-plugin-desc .v-plugins-screen .pagination-links li.current {
-    background: #f10072;
-    color: #fefefe;
-    box-shadow: 0 0 3px #b8b8b8;
-}
-.v-plugin-desc .v-plugins-screen .pagination-links li.current a{
-     color: #fefefe;
-}
+.v-plugin-desc .v-plugins-screen .pagination-links { float: right; list-style:none; margin: 10px 0 0; padding:0;   height: 20px; }
+.v-plugin-desc .v-plugins-screen .pagination-links li { float:  left; display:block; margin: 0 0 0 10px; width: 14px; height:  14px; font-size: 12px; line-height: 14px; color: #666; background: #fff; border-radius: 8px 8px; text-align: center; font-weight: 400; box-shadow: 0 0 3px #b8b8b8; }
+.v-plugin-desc .v-plugins-screen .pagination-links li a { color: #444; }
+.v-plugin-desc .v-plugins-screen .pagination-links li a:hover { color: :#888; text-decoration: none; }
+.v-plugin-desc .v-plugins-screen .pagination-links li.current { background: #f10072; color: #fefefe; box-shadow: 0 0 3px #b8b8b8; }
+.v-plugin-desc .v-plugins-screen .pagination-links li.current a{ color: #fefefe; }
 
 /** violet-work **/
 .violet-work { padding: 20px 0 18px 0; border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; }
