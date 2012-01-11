@@ -16,7 +16,7 @@ www.pizn.me 上的文章采用<a href="http://creativecommons.org/licenses/by-nc
 
 设计界面由<a href="http://pizn.net" target="_blank">PIZn</a>设计提供，图片视觉设计版权由 PIZn 所有。
 
-站点其他代码采用  MIT License 许可。
+站点其他代码采用  <a href="http://zh.wikipedia.org/wiki/MIT_License" target="_blank">MIT License 许可。</a>
 
 ##联系我
 
