@@ -7,7 +7,7 @@
 html{ color:#4d4d4d; background:#f8f8f8; }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { margin:0;padding:0; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
-body,button,input,select,textarea{ font: 12px/1.5 verdana, \5b8b\4f53, \9ED1\4F53, sans-serif;/* 英文字体 verdana，中文宋体和黑体。*/ }
+body,button,input,select,textarea{ font: 13px/1.5 verdana, \5b8b\4f53, \9ED1\4F53, sans-serif;/* 英文字体 verdana，中文宋体和黑体。*/ }
 input,select,textarea{ font-size:100%; }
 table{ border-collapse:collapse;border-spacing:0; }
 th{ text-align:inherit; }
@@ -445,7 +445,7 @@ body .fn-hide { display:none; }
 .v-excerpt-title { margin-bottom: 12px; }
 .v-excerpt-title a { font-size: 18px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
 .v-excerpt-title a:hover, .v-post-list .v-post-title a:hover { color: #246105; text-decoration: none; }
-.v-excerpt-det { font-size: 12px; line-height: 21px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; margin-bottom: 0; }
+.v-excerpt-det { font-size: 13px; line-height: 21px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; margin-bottom: 0; }
 .v-excerpt-det p { margin-bottom: 10px; }
 .v-post-list { padding: 8px 0; border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; }
 .v-post-list .v-post-title { display: inline; line-height: 24px; }
@@ -457,8 +457,8 @@ body .fn-hide { display:none; }
 .v-quote-list { padding: 20px 0; border-top: 1px solid #fff; }
 .v-quote-list .rquote { float: left; display: inline; width: 15px; height: 18px; }
 .v-quote-list .rquote span { font-family: sans-serif; font-size: 40px; position: relative; top: -8px; left: -26px; color: #d8d8d8; }
-.v-quote-list p { font-size: 12px; padding-left: 15px; font-family: Verdana,Arial,Helvetica,sans-serif; font-style: italic; color: #686868; }
-.v-quote-list p.quote-author { padding-top: 10px; padding-right: 10px; line-height: 18px; font-size: 12px; color: #888; font-style: italic; text-align: right; }
+.v-quote-list p { font-size: 13px; padding-left: 15px; font-family: Verdana,Arial,Helvetica,sans-serif; font-style: italic; color: #686868; }
+.v-quote-list p.quote-author { padding-top: 10px; padding-right: 10px; line-height: 18px; font-size: 13px; color: #888; font-style: italic; text-align: right; }
 .v-quote-list span { color: #a8a8a8; }
 
 /** violet-project **/
@@ -466,7 +466,7 @@ body .fn-hide { display:none; }
 .violet-project .v-loading { padding: 20px 0; text-align: center; }
 .v-project-list { padding: 12px 0px; border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; }
 .v-project-list .name { font-weight: 700; line-height: 28px; font-size: 14px; }
-.v-project-list .name span { color: #888; margin: 0 0 0 3px; padding-left: 18px; font-weight: 500; text-align: right; font-size: 12px; line-height: 28px; font-family:  Arial,serif; }
+.v-project-list .name span { color: #888; margin: 0 0 0 3px; padding-left: 18px; font-weight: 500; text-align: right; font-size: 13px; line-height: 28px; font-family:  Arial,serif; }
 .v-project-list .v-project-watch { background: url(/images/icon.png) no-repeat -5px -54px;}
 .v-project-list .v-project-forks { background: url(/images/icon.png) no-repeat -5px -80px;}
 .v-project-list .descript { line-height: 21px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; }
@@ -477,7 +477,7 @@ body .fn-hide { display:none; }
 .violet-about { margin-top: 15px; margin-bottom: 20px; height: auto; }
 .violet-about-det { padding: 20px 0 10px 0; border-bottom: 1px solid #d8d8d8;  }
 .violet-about-det p img { background: #fff; padding: 2px 2px; }
-.violet-about-det p { padding-bottom: 10px; font-size: 12px; line-height: 18px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; }
+.violet-about-det p { padding-bottom: 10px; font-size: 13px; line-height: 18px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; }
 .violet-about-det strong { font-family: "Times New Roman",Times,serif; font-weight: 700; padding: 0 2px; font-size: 14px; line-height: 18px; }
 .violet-about-det em { padding: 0 2px; font-weight: 700; border-bottom: 1px dotted #e8e8e8; }
 
@@ -574,13 +574,13 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .foot { margin-top: 30px; width: 100%; padding-top: 10px; height: 110px; background: #488901; background: -moz-linear-gradient(-90deg, #244f0f 0%, #2d6213 4%, #488901 15%, #488901 100%); background: -webkit-linear-gradient(-90deg, #244f0f 0%, #2d6213 4%, #488901 15%, #488901 100%); background: -ms-linear-gradient(-90deg, #244f0f 0%, #2d6213 4%, #488901 15%, #488901 100%); background: linear-gradient(-90deg, #244f0f 0%, #2d6213 4%, #488901 15%, #488901 100%); border-top: 2px solid #d8d8d8; }
 .violet-submenu { margin: 10px 10px 10px 60px; height: 80px; }
 .violet-submenu ul li { line-height: 20px; margin: 10px 10px 0 0; width: 160px; float: left; }
-.violet-submenu ul li a { display: block; padding: 0 5px; color: #efefef; line-height: 24px; font-size: 12px; font-family: "Times New Roman",Times,serif; border-top: 1px dotted #488901; border-bottom: 1px dotted #396d00; }
+.violet-submenu ul li a { display: block; padding: 0 5px; color: #efefef; line-height: 24px; font-size: 13px; font-family: "Times New Roman",Times,serif; border-top: 1px dotted #488901; border-bottom: 1px dotted #396d00; }
 .violet-submenu ul li a span { color: #fed640; padding-right: 2px; }
 .violet-submenu ul li a:hover { color: #fed640; text-decoration: none; border-radius: 3px 3px; background: rgba(0, 0, 0, 0.2); border-top: 1px solid #2d6213; border-bottom: 1px solid #56a201; }
 .violet-submenu ul li a:hover span { color: #efefef; }
 .violet-theme { margin-top: 20px; height: 70px; }
 .violet-copyright { margin-top: 20px; margin-right: 0; height: 70px; }
-.violet-theme p , .violet-copyright p { padding: 10px 5px; color: #efefef; font-family: "Times New Roman",Times,serif; font-size: 12px; line-height: 21px; background: rgba(0, 0, 0, 0.2); border-radius: 3px 3px; border-top: 1px solid #2d6213; border-bottom: 1px solid #56a201; }
+.violet-theme p , .violet-copyright p { padding: 10px 5px; color: #efefef; font-family: "Times New Roman",Times,serif; font-size: 13px; line-height: 21px; background: rgba(0, 0, 0, 0.2); border-radius: 3px 3px; border-top: 1px solid #2d6213; border-bottom: 1px solid #56a201; }
 .violet-theme p a { color: #fed640; }
 
 /** animated **/
@@ -861,7 +861,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 520px; }
 .violet-post-det { padding: 20px 0; }
 .violet-post-det .day { display: block; font-family: "Times New Roman",Times,serif; font-size: 22px; line-height: 32px; color: #800888; font-style: italic; }
-.violet-post-det .year { font-family: "Times New Roman",Times,serif; display: block; line-height: 18px; font-size: 12px; font-style: italic; color: #888; }
+.violet-post-det .year { font-family: "Times New Roman",Times,serif; display: block; line-height: 18px; font-size: 13px; font-style: italic; color: #888; }
 .v-entry { padding-right: 10px; color: #555; font-family: verdana, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .v-entry h1,
 .v-entry h2,
@@ -874,27 +874,27 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-entry h3 { font-size: 16px; font-weight: 700; line-height: 26px; color: #489620; border-bottom: 1px solid #e8e8e8; margin-bottom: 18px; margin-top: 1.5em; }
 .v-entry h4 { margin-bottom: 18px; font-size: 14px; font-weight: 700; color: #489620; line-height: 26px; text-transform: uppercase; }
 .v-entry h5 { margin-bottom: 18px; color: #444; font-size: 14px; line-height: 26px; text-transform: uppercase; }
-.v-entry h6 { font-size: 12px; font-weight: 700; margin-bottom: 0.5em; color: #444; line-height: 26px; }
+.v-entry h6 { font-size: 13px; font-weight: 700; margin-bottom: 0.5em; color: #444; line-height: 26px; }
 .v-entry > h2:first-child, .v-entry > h1:first-child, .v-entry > h1:first-child + h2 { border: 0 none; }
-.v-entry p { font-size: 12px; line-height: 22px; margin-bottom: 15px; text-indent: 24px; }
+.v-entry p { font-size: 13px; line-height: 22px; margin-bottom: 15px; text-indent: 24px; }
 .v-entry > p:first-child { margin: 0.8em 0; text-indent: 0; }
 .v-entry ul,
 .v-entry ol { padding-bottom: 15px; margin-left: 24px; margin-top: 0.6em; }
 .v-entry ul li,
-.v-entry ol li { font-size: 12px; color: #555; margin: 0.5em 0; }
+.v-entry ol li { font-size: 13px; color: #555; margin: 0.5em 0; }
 .v-entry ul li { list-style-type: square; }
 .v-entry ol li { list-style-type: decimal; }
 .v-entry > ul,
 .v-entry > ol { margin-left: 24px; margin-top: 0.8em; }
 .v-entry dl { margin: 0; padding: 0; }
-.v-entry dl dt { font-size: 14px; font-weight: bold; line-height: normal; color: #494949; margin: 0.6em 0 0; }
-.v-entry dl dd { font-size: 12px; margin: 0; padding: 3px 0 0; }
+.v-entry dl dt { font-size: 15px; font-weight: bold; line-height: normal; color: #494949; margin: 0.6em 0 0; }
+.v-entry dl dd { font-size: 13px; margin: 0; padding: 3px 0 0; }
 .v-entry blockquote { border-left: 4px solid #e5e5e5; color: #555; line-height: 1.8em; margin: 0 0 1em 0; padding-left: 0.8em; }
 .v-entry table { border-collapse: collapse; margin: 10px 0 10px; padding: 0; border-top: 2px solid #e18b3a; border-bottom: 2px solid #e18b3a; }
 .v-entry * tr { background-color: #fff; border-top: 1px solid #d8d8d8; margin: 0; padding: 0; } 
 .v-entry * tr:nth-child(2n) { background: #f8f8f8; }
 .v-entry * tr th,
-.v-entry * tr td { border: 1px solid #d8d8d8; margin: 0; padding: 5px 12px; text-align: left; color: #555; }
+.v-entry * tr td { border: 1px solid #d8d8d8; margin: 0; padding: 5px 13px; text-align: left; color: #555; }
 .v-entry * tr th:first-child,
 .v-entry * tr td:first-child { border-left: none; }
 .v-entry * tr th:last-child,
@@ -992,7 +992,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-archive .v-archive-tit h3 a { font-family: "Times New Roman",Times,serif; font-size: 16px; font-weight: 700; color: #489620; }
 .violet-archive .v-archive-tit h3 a:hover { color: #246105; text-decoration: none; }
 .violet-archive .v-archive-det { margin-right: 0; }
-.violet-archive .v-archive-det p { padding-right: 10px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; line-height: 21px; }
+.violet-archive .v-archive-det p { padding-right: 10px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 13px; line-height: 21px; }
 
 /** plugins **/
 .v-plugin { padding: 20px 0 0; height: auto; }
@@ -1002,11 +1002,11 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-plugin-desc, .v-plugin-meta { height: auto; margin-bottom: 0; }
 .v-plugin-desc h4, .v-plugin-meta h4 { margin-bottom: 10px; font-family: "Times New Roman",Times,serif; font-size: 14px; line-height: 24px; font-weight: 700; color: #8f006d; }
 .v-plugin-desc h4 { border-bottom: 1px dotted #d5d5d5; }
-.v-plugin-desc p, .v-plugin-meta p { font-size: 12px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; line-height: 18px; padding-bottom: 10px; }
+.v-plugin-desc p, .v-plugin-meta p { font-size: 13px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; line-height: 18px; padding-bottom: 10px; }
 .v-plugin-desc p img, .v-plugin-meta p img { padding: 1px 1px;
     border: 1px solid #e0e0e0;
     background: #fff; }
-.v-plugin-desc ul, .v-plugin-meta ul { margin-left: 15px; margin-bottom: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; list-style-type: square; }
+.v-plugin-desc ul, .v-plugin-meta ul { margin-left: 15px; margin-bottom: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 13px; list-style-type: square; }
 .v-plugin-desc ul li { line-height: 21px; }
 .v-plugin-desc .violet-download {
     margin: 0 10px;
@@ -1059,7 +1059,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     margin: 0 0 0 10px;
     width: 14px;
     height:  14px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 14px;
     color: #666;
     background: #fff;
@@ -1088,7 +1088,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-work { padding: 20px 0 18px 0; border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; }
 .violet-work-tit { margin-bottom: 0; }
 .violet-work-tit h3 { font-family: "Times New Roman",Times,serif; font-size: 18px; line-height: 27px; font-weight: 700; color: #489620; padding-bottom: 10px; }
-.violet-work-tit p { font-size: 12px; line-height: 18px; padding-bottom: 10px; }
+.violet-work-tit p { font-size: 13px; line-height: 18px; padding-bottom: 10px; }
 
 .violet-work-det { margin: 0 0; height: auto; }
 .violet-work-det img { padding: 2px 2px; box-shadow: 0px 0px 3px #d0d0d0; }
