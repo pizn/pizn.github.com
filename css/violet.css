@@ -580,7 +580,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-submenu ul li a:hover span { color: #efefef; }
 .violet-theme { margin-top: 20px; height: 70px; }
 .violet-copyright { margin-top: 20px; margin-right: 0; height: 70px; }
-.violet-theme p , .violet-copyright p { padding: 10px 5px; color: #efefef; font-family: "Times New Roman",Times,serif; font-size: 13px; line-height: 21px; background: rgba(0, 0, 0, 0.2); border-radius: 3px 3px; border-top: 1px solid #2d6213; border-bottom: 1px solid #56a201; }
+.violet-theme p , .violet-copyright p { padding: 10px 5px; color: #efefef; font-family: "Times New Roman",Times,serif; font-size: 12px; line-height: 21px; background: rgba(0, 0, 0, 0.2); border-radius: 3px 3px; border-top: 1px solid #2d6213; border-bottom: 1px solid #56a201; }
 .violet-theme p a { color: #fed640; }
 
 /** animated **/
