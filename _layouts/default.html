@@ -19,18 +19,18 @@
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <!--[if lt IE 9]>
-	<script src="/js/html5.js" type="text/javascript"></script>
-	<![endif]-->
+    <script src="/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
 </head>
 <body class="violet-content">
-	<!--[if IE]>
+    <!--[if IE]>
     <div class="KillIE">
         <p>注意：假如您使用 <a href="http://www.google.com/chrome/" target="_blank" rel="nofollow">Chrome</a>, <a href="http://www.mozilla.com/" target="_blank" rel="nofollow">FireFox</a>, 或者 <a href="http://www.apple.com/safari/" rel="nofollow" target="_blank">Safari</a> 等高级浏览器。本站将为您带来更好的体验哦!</p>
         <p>Attention: If you use <a href="http://www.google.com/chrome/" target="_blank" rel="nofollow">Chrome</a>, <a href="http://www.mozilla.com/" target="_blank" rel="nofollow">FireFox</a>, or <a href="http://www.apple.com/safari/" rel="nofollow" target="_blank">Safari</a> , our site will be more beautiful. Thanks!</p>
     </div>
     <![endif]-->
     <header class="head">
-        <div class="ui-grid-25 ui-gird-right ui-grid-bottom">
+        <div class="ui-grid-25 ui-grid-right ui-grid-bottom">
             <div class="ui-grid-20 header-line"></div>
             <div class="ui-grid-20 header">
                 <div class="header-bg"></div>
@@ -164,28 +164,28 @@
         </div>
     </footer>
     <a class="v-fork-me" href="https://github.com/pizn/pizn.github.com" target="_blank" rel="nofollow">
-		<img src="/images/forkme.png" alt="Fork me on GitHub">
-	</a>
+        <img src="/images/forkme.png" alt="Fork me on GitHub">
+    </a>
     <script src="/js/jquery.js" type="text/javascript"></script>
     <script src="/js/violet.js" type="text/javascript"></script>
     {% if(page.isIndex) %}
-   	<script src="/js/index.js" type="text/javascript"></script>
+    <script src="/js/index.js" type="text/javascript"></script>
     {% endif %}    
     {% if(page.isPost) %}
     <script src="/js/colorcode.js" type="text/javascript"></script>
     <script type="text/javascript">
-    	//colorcode highlight
-    	window.onload = function() {
+        //colorcode highlight
+        window.onload = function() {
             DlHighlight.HELPERS.highlightByName('colorcode', 'pre','', true);
         }
         
         //disqus
-    	var disqus_shortname = 'piznblog';
-   		(function() {
-         	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'piznblog';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] ||
-             	document.getElementsByTagName('body')[0]).appendChild(dsq);
+                document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
     {% endif %}
@@ -193,27 +193,27 @@
     <script type="text/javascript" src="/js/carousel.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-    	$('#J_colorcode_screen').carousel({
-    		itemsPerPage: 1, 
-    		itemsPerTransition: 1, 
-    		noOfRows: 1, 
-    		nextPrevLinks: false, 
-    		pagination: true, 
-    		speed: 'normal', 
-    		easing: 'swing' 
-		});
-	});
+        $('#J_colorcode_screen').carousel({
+            itemsPerPage: 1, 
+            itemsPerTransition: 1, 
+            noOfRows: 1, 
+            nextPrevLinks: false, 
+            pagination: true, 
+            speed: 'normal', 
+            easing: 'swing' 
+        });
+    });
     </script>
     {% endif %}
     {% if(page.isContact) %}
     <script type="text/javascript">
     $(document).ready(function(){
-    	$("#J_f2f ul li").hover(function(){
-    			$(this).addClass("v-f2f-hover");
-    		},
-    		function(){
-    			$(this).removeClass("v-f2f-hover");
-    		});
+        $("#J_f2f ul li").hover(function(){
+                $(this).addClass("v-f2f-hover");
+            },
+            function(){
+                $(this).removeClass("v-f2f-hover");
+            });
     });
     </script>
     {% endif %}

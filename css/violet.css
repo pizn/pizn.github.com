@@ -1159,3 +1159,42 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .KillIE a { color: #cfdb74; }
 /** v-tj **/
 .v-tj { float: right; margin-right: 8px; overflow: hidden;}
+
+/** 404 **/
+.v-404 { margin: 50px 0 70px 60px; -moz-box-shadow: 0px 0px 8px #d8d8d8; height:  300px; background:  #fff; }
+.violet-nofound { float: left; position: relative; width: 140px; height: 140px; margin: 70px 0 0 0px; }
+.violet-nofound-txt { float: left; margin: 60px 50px  0 210px; }
+.violet-nofound-txt1 { color: #990128;}
+.violet-nofound-txt2 { color: #004f93;}
+.violet-nofound-txt3 { color: #539144;}
+.violet-nofound-txt4 { color: #188faa;}
+.violet-nofound-txt5 { color: #ff7eb0;}
+.violet-nofound-txt6 { color: #404040;}
+.violet-nofound-txt h3 { font-family: violet; font-size: 100px; line-height: 100px; padding-bottom: 10px; }
+.violet-nofound-txt p { padding-top: 5px; border-top: 1px dotted #d8d8d8; line-height: 30px; font-size:  13px; font-family: Arial, sans-serif; }
+
+/** worm **/
+.worm { position: absolute; top: 0; left: 0; z-index: 999;}
+.worm-hd { position: relative; width: 100px; height: 100px; background: #888; border-radius: 50px 50px; background: #489e12; border: 1px solid #000; }
+.worm-hd-bg { position:absolute; top: 1px; width: 86px; height: 98px; background: #888; border-top-left-radius: 120px 120px; border-top-right-radius: 86px 120px; border-bottom-left-radius: 120px 120px; border-bottom-right-radius: 86px 120px; background: #6dc904; -moz-transform: rotate(6deg); -webkit-transform: rotate(6deg); transform: rotate(6deg); }
+.worm-eye1 { position: absolute; top: 6px; left: 1px; width: 39px; height: 52px; background: #fff; border-top-left-radius: 34px 46px; border-top-right-radius: 34px 46px; border-bottom-left-radius: 34px 46px; border-bottom-right-radius: 34px 46px; -moz-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg); border-left: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000; border-top: 2px solid #000; }
+.worm-eye11 { position: absolute; top: 21px; left: 18px; width: 18px; height: 26px; background: #000; border-top-left-radius: 10px 14px; border-top-right-radius: 10px 14px; border-bottom-left-radius: 10px 14px; border-bottom-right-radius: 10px 14px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.worm-eye111{ position: absolute; top: 6px; left: 6px; width: 10px; height: 16px; background: #fff; border-top-left-radius: 8px 12px; border-top-right-radius: 8px 12px; border-bottom-left-radius: 8px 12px; border-bottom-right-radius: 8px 12px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.worm-eye2 { position: absolute; top: 13px; right: 16px; width: 40px; height: 51px; background: #fff; border-top-left-radius: 34px 46px; border-top-right-radius: 34px 46px; border-bottom-left-radius: 34px 46px; border-bottom-right-radius: 34px 46px; -moz-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg); border-left: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000; border-top: 2px solid #000; }
+.worm-eye22 { position: absolute; top: 19px; right: 19px; width: 18px; height: 26px; background: #000; border-top-left-radius: 10px 14px; border-top-right-radius: 10px 14px; border-bottom-left-radius: 10px 14px; border-bottom-right-radius: 10px 14px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.worm-eye222 { position: absolute; top: 6px; right: 6px; width: 10px; height: 16px; background: #fff; border-top-left-radius: 8px 12px; border-top-right-radius: 8px 12px; border-bottom-left-radius: 8px 12px; border-bottom-right-radius: 8px 12px; -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.worm-nose { position: absolute; top: 63px; left: 31px; width: 8px; height: 8px; border: 5px 5px 0 0;    border-top: 1px solid #000; border-left: 2px solid #000; border-radius: 5px 5px; -moz-transform: rotate(30deg) -webkit-transform: rotate(30deg); transform: rotate(30deg); }
+.worm-month { position: absolute; bottom: 9px; left: 35px; background: #fff; width: 6px; height:  12px; border-top-left-radius: 14px 30px; border-top-right-radius: 14px 30px; border-bottom-left-radius: 14px 30px; border-bottom-right-radius: 14px 30px; border-left: 1px solid #000; border-right: 1px solid #000; border-bottom: 1px solid #000; border-top: 2px solid #000; background: #cb908c; -moz-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
+.worm-bd1 { position: absolute; top:76px; left: 26px; width: 46px; height:  46px; background: #6dc904; border-radius: 25px 25px; border: 1px solid #000; z-index: 888; }
+.worm-bd11 { width: 30px; height:  30px; background: #489d12; border-radius: 15px; z-index: 900; position: absolute; top: 2px; left: 4px; }
+.worm-bd2 { position: absolute; top:94px; left: 50px; width: 34px; height:  34px; background: #6dc904; border-radius: 25px 25px; border: 1px solid #000; z-index: 777; }
+.worm-bd22 { width: 34px; height:  34px; background: #489d12; border-radius: 20px; z-index: 800; position: absolute; top: -4px; left: -6px; }
+.worm-bd3 { position: absolute; top:93px; left: 70px; width: 30px; height:  30px; background: #6dc904; border-radius: 25px 25px; border: 1px solid #000; z-index: 666; }
+.worm-bd33 { width: 28px; height:  28px; background: #489d12; border-radius: 20px; z-index: 700; position: absolute; top: 3px; left: -9px; }
+.worm-bd4 { position: absolute; top:96px; left: 90px; width: 22px; height:  22px; background: #6dc904; border-radius: 25px 25px; border: 1px solid #000; z-index: 555; }
+.feeler-tl { position: absolute; top: -23px; left: 8px; width: 6px; height: 6px; border-radius: 6px 6px; border: 1px solid #000; background: #489d12; z-index:  400; }
+.feeler-tr { position: absolute; top: -23px; left: 58px; width: 6px; height: 6px; border-radius: 6px 6px; border: 1px solid #000; background: #489d12; z-index:  400; }
+.feeler-l { position:absolute; top: -23px; left: 10px; z-index: 300; width: 30px; height: 26px; overflow: hidden; }
+.feeler-l1 { border: 1px solid #000; border-radius: 100px; width: 120px; height:  120px; position: absolute; left: -93px; top: -8px; }
+.feeler-r { position: absolute; top: -23px; left: 50px; z-index: 300; width: 30px; height: 26px; overflow: hidden; }
+.feeler-r1 { border: 1px solid #000; border-radius: 100px; width: 100px; height:  100px; position: absolute; left: -85px; top: -28px; }
