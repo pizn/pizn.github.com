@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Jekyll SEO 技巧
+title: 优化 Jekyll 站点的 SEO 技巧
 description: 在使用 Jekyll 搭建个人博客的时候，将 SEO 优化的细节融入到博客主题中，有利于搜索引擎的对站点内容的抓取，为您的网站带来有价值的流量。本文将为你分享一些 Jekyll SEO 技巧。
-keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 标题, 关键字, 描述, description
+keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 标题, 关键字, 描述, description, keywords
 ---
-很多时候，我们搭建了一个博客，但很少有人来访问。一方面可能是因为我们没有做好推广，另外一方面可能是我们没做好 <strong>SEO</strong> 。在使用<strong>Jekyll</strong> 搭建这个博客的时候，我将 <strong>SEO</strong> 的一些优化点融入到 <strong>Violet</strong> 主题中来。经过一段时间的测试和观察，期望的效果已经达到。
+很多时候，我们搭建了一个博客，但很少有人来访问。一方面可能是因为我们没有做好推广，另外一方面可能是我们没做好 <strong>SEO</strong> 。在使用 <strong>Jekyll</strong> 搭建这个博客的时候，我将 <strong>SEO</strong> 的一些优化点融入到 <strong>Violet</strong> 主题中来。经过一段时间的测试和观察，期望的效果已经达到。
 
-虽然我不是 SEO 高手，但喜欢折腾。通过对 SEO 的学习和实践，我希望能将好的文章让更多人知道，并通过 Jekyll 实现。本文将为你分享一些 Jekyll SEO 技巧。
+虽然我不是 SEO 高手，但喜欢折腾。通过对 SEO 的学习和实践，我希望能将好的文章让更多人知道，并通过 Jekyll 实现。本文将为你分享一些 <strong>Jekyll SEO</strong> 技巧。
 
 ###优化博客标题及副标题
 
@@ -38,7 +38,7 @@ keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 
 把预定好的内容写在配置文件 <code class="v-code">_config.yml</code> 中，一种是在
 每个页面添加 <code class="v-code">YAML</code> ， 还有一种是写个插件，自动配置。写在配置文件中的比较统一，可以作为全局使用。写在页面的比较灵活，但是每次编写文章的时候都要自己手动加上去。写个插件，难度较大。
 
-经过对 Wordpress 的 SEO 的一些借鉴方法，在这次改版过程中，我采用了手动配置的方法。基本为所有页面都添加了 Description 和 Keywords 。
+经过对 <strong>Wordpress</strong> 的 SEO 的一些借鉴方法，在这次改版过程中，我采用了手动配置的方法。基本为所有页面都添加了 Description 和 Keywords 。
 
 如果你查看我的页面源码，你就可以发现，在所有文档的头部都会多了 2 个标识。而在文章页面，我会在文章输出 Description , 同时将其作为文章的摘要在首页输出。
 
@@ -46,7 +46,7 @@ keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 
 
 一篇好的文章，条例同顺，层次分明。同时，为文章加上语义化的标签，更有利于搜索引擎抓取。
 
-hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2</code>, <code class="v-code">h3</code>, <code class="v-code">h4</code>, <code class="v-code">h5</code>, <code class="v-code">h6</code> 等标签, <code class="v-code">strong</code> 标签则是标识该文章的关键字。
+<strong>hground</strong> 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2</code>, <code class="v-code">h3</code>, <code class="v-code">h4</code>, <code class="v-code">h5</code>, <code class="v-code">h6</code> 等标签, <code class="v-code">strong</code> 标签则是标识该文章的关键字。
 
 ###处理链接的 rel 标签
 
@@ -54,7 +54,7 @@ hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2<
 
 ###文章列表页显示文章摘要
 
-在 Archives 页面，我将 Description 输出到摘要信息里面。这里有个好处，就是在查看这个页面的时候，很方便地看到页面的基本内容，搜索爬虫也能抓取到页面的摘要。坏处就是所有的文章在这里都输出，表示页面会很长！
+在 Archives 页面，我将 <strong>Description</strong> 输出到摘要信息里面。这里有个好处，就是在查看这个页面的时候，很方便地看到页面的基本内容，搜索爬虫也能抓取到页面的摘要。坏处就是所有的文章在这里都输出，表示页面会很长！
 
 ###添加 Atom.xml 和 Sitemap.xml
 
@@ -62,7 +62,7 @@ hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2<
 
 ###总结
 
-在使用 Wordpress 的时候，就注意到 SEO 的重要性了。此次 Violet 的实践，应该算是一种学习和尝试，在使用 Jekyll 搭建站点的过程中，具体应该注意的一些细节，下面列个表格作最后总结。
+在使用 <strong>Wordpress</strong> 的时候，就注意到 <strong>SEO</strong> 的重要性了。此次<strong>Violet</strong> 的实践，应该算是一种学习和尝试，在使用<strong>Jekyll</strong> 搭建站点的过程中，具体应该注意的一些细节，下面列个表格作最后总结。
 
 <table>
     <tbody>
