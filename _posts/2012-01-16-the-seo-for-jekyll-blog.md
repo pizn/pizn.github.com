@@ -69,8 +69,8 @@ keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 
         <tr>
             <th style="width:15%">页面类型</th>
             <th>标题</th>
-            <th style="width:20%">描述</th>
-            <th>关键词</th>
+            <th>描述</th>
+            <th style="width:18%">关键词</th>
             <th>其他</th>
         </tr>
         <tr>
