@@ -10,7 +10,13 @@
      **
    -->
     <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>
+    	{% if page.title %}
+    		{{ page.title }}
+    	{% else %}
+    		{{ site.title }}
+    	{% endif %}   		
+    </title>
     <meta name="generator" content="Jekyll" />
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="description" content="{{ page.description }}" />
