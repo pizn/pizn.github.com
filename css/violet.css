@@ -859,9 +859,41 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 }
 /** violet-post **/
 .violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 520px; }
-.violet-post-det { padding: 20px 0; }
-.violet-post-det .day { display: block; font-family: "Times New Roman",Times,serif; font-size: 22px; line-height: 32px; color: #800888; font-style: italic; }
-.violet-post-det .year { font-family: "Times New Roman",Times,serif; display: block; line-height: 18px; font-size: 13px; font-style: italic; color: #888; }
+.v-post-aside {
+    float: right;
+    margin: 0 0;
+    padding: 50px 15px 50px 0;
+}
+.v-post-aside .recent-post {
+    padding-left: 13px;
+}
+.v-post-aside li {
+    font-family: verdana,"黑体",sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #c9ccc9;
+}
+.v-post-aside li a {
+    display: block;
+    padding: 0 5px;
+    color: #666;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px 4px;
+    border-radius: 4px 4px;
+    cursor: pointer;
+}
+.v-post-aside li a:hover {
+    color: #4d4d4d;
+    background: #e0e0e0;
+    text-decoration: none;
+}
+
+.v-post-detail {
+    margin: 0 0;
+    padding: 50px 20px 50px 50px;
+    background: #fff;
+}
 .v-entry { padding-right: 10px; color: #555; font-family: verdana, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
 .v-entry h1,
 .v-entry h2,
@@ -968,8 +1000,39 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .DlHighlight .css-end { color: #d8d8d8; }
 
 /** entry special **/
-.v-entry .title { font-family: "Times New Roman",Times,serif; margin-bottom: 4px; padding: 0 0; font-size: 20px; line-height: 32px; font-weight: 700; color: #489620; }
-.v-entry .description { padding: 8px 0; font-style: italic; color: #888; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #d0d0d0; text-indent: 24px; }
+.v-entry .title {
+    margin-bottom: 10px;
+    font-family: "Times New Roman",Times,serif;
+    padding: 0 0;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #e18b3a;
+    text-align: center;
+}
+.v-entry .meta {
+    text-align: center;
+    color: #a0a0a0;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 13px;
+    text-indent: 0;
+    font-weight: 600;
+}
+.v-entry .meta .date {
+    color: #489620;
+}
+.v-entry .meta .author {
+}
+.v-entry .description {
+    padding: 8px 12px;
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    text-indent: 0;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #f0f0f0;
+}
+
 .v-pagination {
     height: 30px;
     border-top: 1px solid #e8e8e8;
