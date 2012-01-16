@@ -859,6 +859,18 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 }
 /** violet-post **/
 .violet-post { margin-left: 60px; margin-top: 15px; height: auto; min-height: 520px; }
+.violet-post-det {
+    margin: 20px 0;
+    background: #eeefef;
+    -moz-box-shadow: 3px 3px #e0e0e0;
+    -webkit-box-shadow: 3px 3px 0 #e0e0e0;
+    box-shadow: 3px 3px 0 #e0e0e0;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #efefef;
+}
+
 .v-post-aside {
     float: right;
     margin: 0 0;
