@@ -46,7 +46,7 @@ keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 
 
 一篇好的文章，条例同顺，层次分明。同时，为文章加上语义化的标签，更有利于搜索引擎抓取。
 
-hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2</code>, <code vlass="v-code">h3</code>, <code class="v-code">h4</code>, <code class="v-code">h5</code>, <code class="v-code">h6</code> 等标签, <code class="v-code">strong</code> 标签则是标识该文章的关键字。
+hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2</code>, <code class="v-code">h3</code>, <code class="v-code">h4</code>, <code class="v-code">h5</code>, <code class="v-code">h6</code> 等标签, <code class="v-code">strong</code> 标签则是标识该文章的关键字。
 
 ###处理链接的 rel 标签
 
@@ -58,7 +58,7 @@ hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2<
 
 ###添加 Atom.xml 和 Sitemap.xml
 
-为网站添加订阅功能，主要将最新的 10 篇文章输出到 Atom.xml 中。网站地图<strong>Sitemap.xml</strong> 则是将全站的文章，页面都输出。最后将其提交到 <strong>Google</strong>
+为网站添加订阅功能，主要将最新的 10 篇文章输出到 Atom.xml 中。网站地图 <strong>Sitemap.xml</strong> 则是将全站的文章，页面都输出。最后将其提交到 <strong>Google</strong> 。
 
 ###总结
 
@@ -67,9 +67,9 @@ hground 标签指的是 <code class="v-code">h1</code>, <code class="v-code">h2<
 <table>
     <tbody>
         <tr>
-            <th>页面类型</th>
+            <th style="width:15%">页面类型</th>
             <th>标题</th>
-            <th>描述</th>
+            <th style="width:20%">描述</th>
             <th>关键词</th>
             <th>其他</th>
         </tr>
