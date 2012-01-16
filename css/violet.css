@@ -874,7 +874,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-post-aside {
     float: right;
     margin: 0 0;
-    padding: 50px 15px 50px 0;
+    padding: 50px 20px 50px 0;
 }
 .v-post-aside .recent-post {
     padding-left: 13px;
@@ -903,7 +903,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 
 .v-post-detail {
     margin: 0 0;
-    padding: 50px 20px 50px 50px;
+    padding: 50px 20px 50px 40px;
     background: #fff;
 }
 .v-entry { padding-right: 10px; color: #555; font-family: verdana, "Microsoft Yahei","Microsoft Jhenghei",STHeiti,PMingLiU,Simsun; }
