@@ -20,17 +20,17 @@ isIndex: true
                 <article class="v-excerpt fn-clear">
                     <div class="ui-grid-5 ui-grid-bottom">
                         <h3 class="v-excerpt-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
-                        <p class="v-date"><span>&#8227;</span>{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</p>
+                        <p class="v-date"><span>&#8227;</span><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
                     </div>
                     <div class="ui-grid-8 ui-grid-right v-excerpt-det">
                         <p>{{ rpost.description }}</p>
-                        <p class="v-more"><a href="{{ rpost.url }}" title="Read More" rel="bookmark"><span>&#10149;</span>Read More</a></p>
+                        <p class="v-more"><a href="{{ rpost.url }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
                     </div>
                 </article><!-- //v-post-excerpt -->
                 {% endfor %}
                 {% for npost in site.posts limit:3 offset:5  %}             
                 <article class="v-post-list fn-clear">
-                    <p class="v-date"><span>&#8227;</span>{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</p>
+                    <p class="v-date"><span>&#8227;</span><time pubdate="{{ npost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
                     <h3 class="v-post-title"><a href="{{ npost.url }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></h3>
  	            </article><!-- //v-post-list -->
                 {% endfor %}

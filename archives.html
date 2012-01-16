@@ -24,7 +24,7 @@ keywords: PIZn, GitHub, Archives, mac, css, html, javascript, violet, Jekyll, pl
 						{% endif %}
 						<article class="article fn-clear">
                             <div class="ui-grid-6 v-archive-tit">
-                                <p class="v-date"><span>&#8227;</span>{{ post.date | date: '%b %d' }}</p>
+                                <p class="v-date"><span>&#8227;</span><time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date: '%b %d' }}</time></p>
                                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                             </div>
                             <div class="ui-grid-11 v-archive-det">
