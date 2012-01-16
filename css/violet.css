@@ -879,6 +879,11 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-post-aside .recent-post {
     padding-left: 13px;
 }
+.v-post-aside .v-section-tit {
+    padding-left: 5px;
+    color: #2d6213;
+    border-bottom: 1px solid #dedede;
+}
 .v-post-aside li {
     font-family: verdana,"黑体",sans-serif;
     font-size: 12px;
