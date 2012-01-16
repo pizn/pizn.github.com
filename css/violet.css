@@ -883,6 +883,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     padding-left: 5px;
     color: #2d6213;
     border-bottom: 1px solid #dedede;
+    margin-bottom: 6px;
 }
 .v-post-aside li {
     font-family: verdana,"黑体",sans-serif;
