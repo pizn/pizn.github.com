@@ -18,7 +18,7 @@ isPost: true
                             <ul>
                             {% for rpost in site.posts limit:6  %}   
                 				<li>
-                					<span class="v-span">&#8227;</span><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
+                					<a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
                 				</li>              	      	            
                 			{% endfor %}
                             </ul>
