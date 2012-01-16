@@ -60,7 +60,7 @@ keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 
 
 为网站添加订阅功能，主要将最新的 10 篇文章输出到 Atom.xml 中。网站地图 <strong>Sitemap.xml</strong> 则是将全站的文章，页面都输出。最后将其提交到 <strong>Google</strong> 。
 
-###总结
+###简单总结
 
 在使用 <strong>Wordpress</strong> 的时候，就注意到 <strong>SEO</strong> 的重要性了。此次<strong>Violet</strong> 的实践，应该算是一种学习和尝试，在使用<strong>Jekyll</strong> 搭建站点的过程中，具体应该注意的一些细节，下面列个表格作最后总结。
 
