@@ -948,7 +948,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-entry strong { font-weight: 700; font-family: "Times New Roman",Times,serif; }
 
 .v-entry pre { 
-  width: 620px;
+  width: 95%;
   background-color: #303030;
   border-left: 5px solid #1f1f1f;
   border-top: 1px solid #1f1f1f;
@@ -956,7 +956,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
   border-bottom: 1px solid #1f1f1f;
   font: 12px Monaco,serif;
   padding: 0px 5px;
-  margin: 10px 0 10px 24px;
+  margin: 10px 0 10px 0px;
   overflow:  auto;
   color: #e8e8e8;
   border-radius: 3px 3px 3px 3px;
