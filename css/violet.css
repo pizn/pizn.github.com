@@ -959,7 +959,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
   border-top: 1px solid #1f1f1f;
   border-right: 1px solid #1f1f1f;
   border-bottom: 1px solid #1f1f1f;
-  font: 12px Monaco,serif;
+  font: 12px/1.5 Monaco,serif;
   margin: 10px 0 10px 0px;
   overflow:  auto;
   color: #e8e8e8;
