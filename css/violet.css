@@ -1078,7 +1078,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-pagination {
     height: 28px;
     border-top: 1px solid #e0e0e0;
-    margin: 10px 10px 15px 0;
+    margin: 10px 10px 80px 0;
     padding: 10px 0 0;
 }
 .v-pagination a {
