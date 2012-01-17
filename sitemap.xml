@@ -8,8 +8,20 @@ layout: none
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>{{ site.url }}/about.html</loc>
-            <priority>0.6</priority>
+        <loc>{{ site.url }}/archives.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/plugins.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/works.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>{{ site.url }}/contact.html</loc>
+        <priority>0.6</priority>
     </url>
     {% for post in site.posts %}
     <url>
