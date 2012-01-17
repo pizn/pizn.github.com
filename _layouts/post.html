@@ -16,7 +16,7 @@ isPost: true
                     <div class="ui-grid-15 v-post-detail">
                         <div class="v-entry">
                             <h1 class="title">{{ page.title }}</h1>
-                            <p class="meta"><time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_utc | date: "%Y-%m-%d" }}</time> By <a href="/contact.html" class="author" title="author">PIZn</a></p>
+                            <p class="meta"><time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_utc | date: "%Y-%m-%d" }}</time> By <a href="/contact.html" class="author" title="author">PIZn</a><g:plusone size="small"></g:plusone></p>
                             <p class="description">{{ page.description }}</p>
                             {{ content }}
                         </div>

@@ -193,7 +193,15 @@
             (document.getElementsByTagName('head')[0] ||
                 document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    </script>
+    </script>   
+    <script type="text/javascript">
+    	//google+
+  		(function() {
+   	 	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    	po.src = 'https://apis.google.com/js/plusone.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  		})();
+	</script>
     {% endif %}
     {% if(page.isPlugin) %}
     <script type="text/javascript" src="/js/carousel.js"></script>
@@ -234,8 +242,5 @@
               s.parentNode.insertBefore(ga, s);
         })();
     </script>
-    <!--
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    -->
 </body>
 </html>
