@@ -193,15 +193,7 @@
             (document.getElementsByTagName('head')[0] ||
                 document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-    </script>   
-    <script type="text/javascript">
-    	//google+
-  		(function() {
-   	 	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    	po.src = 'https://apis.google.com/js/plusone.js';
-    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  		})();
-	</script>
+    </script>
     {% endif %}
     {% if(page.isPlugin) %}
     <script type="text/javascript" src="/js/carousel.js"></script>
@@ -242,5 +234,14 @@
               s.parentNode.insertBefore(ga, s);
         })();
     </script>
+    {% if(page.isPost) %}
+    <script type="text/javascript">
+  		(function() {
+    		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    		po.src = 'https://apis.google.com/js/plusone.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  		})();
+	</script>
+    {% endif %}
 </body>
 </html>
