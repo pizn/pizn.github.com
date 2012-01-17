@@ -1049,14 +1049,54 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     border-bottom: 1px solid #f0f0f0;
 }
 
-.v-pagination {
-    height: 30px;
-    border-top: 1px solid #e8e8e8;
-    margin: 10px 10px 10px 0;
-    background:  #fbfbfb;
+.v-announce {
+    margin: 20px 10px 15px 0;
+    font-family: verdana, \9ED1\4F53, sans-serif;
+    background: #9ccbf1;
+    background: -moz-linear-gradient(-90deg, #6db0e6 0%, #8fbadd 4%, #9ccbf1 15%, #9ccbf1 100%);
+    background: -webkit-linear-gradient(-90deg, #6db0e6 0%, #8fbadd 4%, #9ccbf1 15%, #9ccbf1 100%);
+    background: -ms-linear-gradient(-90deg, #6db0e6 0%, #8fbadd 4%, #9ccbf1 15%, #9ccbf1 100%);
+    background: linear-gradient(-90deg, #6db0e6 0%, #8fbadd 4%, #9ccbf1 15%, #9ccbf1 100%);
+    border-top: 1px solid #65a5d8;
+    border-left: 1px solid #6db0e6;
+    border-right: 1px solid #6db0e6;
+    border-bottom: 1px solid #6db0e6;
+    border-radius: 3px 3px;
 }
-.v-pagination .prev { line-height: 30px; float: left;}
-.v-pagination .next { line-height: 30px; float: right;}
+.v-announce p {
+    padding: 0 8px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #155b92;
+}
+.v-announce p a {
+    color: #fff;
+}
+.v-announce p a:hover {
+    color: #fff;
+}
+.v-pagination {
+    height: 28px;
+    border-top: 1px solid #e0e0e0;
+    margin: 10px 10px 15px 0;
+    padding: 10px 0 0;
+}
+.v-pagination a {
+    font-family: verdana, \9ED1\4F53, sans-serif;
+    color: #666666;
+    padding: 0 8px;
+    line-height: 28px;
+    border-radius: 3px 3px;
+}
+.v-pagination a:hover {
+    background: #e8e8e8;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.v-pagination .prev { float: left; }
+.v-pagination .next { float: right; }
+
 
 /** violet-comment **/
 .violet-comment {
