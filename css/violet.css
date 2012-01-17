@@ -1038,6 +1038,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     color: #489620;
 }
 .v-entry .meta .author {
+	padding-right: 4px;
 }
 .v-entry .description {
     padding: 8px 12px;
