@@ -5,7 +5,7 @@ description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来�
 keywords: PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek
 isIndex: true
 ---
-	<div class="banner">
+    <div class="banner">
         <div class="ui-grid-25 ui-grid-bottom ui-grid-right">
             <div class="ui-grid-23 banner-cnt" id="J_banner">
             </div><!-- //banner-cnt -->
@@ -13,7 +13,7 @@ isIndex: true
     </div><!-- //banner -->
 
     <section class="content fn-clear">
-		<div class="ui-grid-25 ui-grid-right content-top">
+        <div class="ui-grid-25 ui-grid-right content-top">
             <section class="ui-grid-13 violet-journal">
                 <h4 class="v-section-tit">Last Journal</h4>
                 {% for rpost in site.posts limit:5 %}
@@ -32,12 +32,12 @@ isIndex: true
                 <article class="v-post-list fn-clear">
                     <p class="v-date"><span>&#8227;</span><time pubdate="{{ npost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
                     <h3 class="v-post-title"><a href="{{ npost.url }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></h3>
- 	            </article><!-- //v-post-list -->
+                </article><!-- //v-post-list -->
                 {% endfor %}
             </section><!-- //Journal -->
             <section class="ui-grid-6">
                 <div class="violet-quotes">
-                    <h4 class="v-section-tit">Design Quote</h4>
+                    <h4 class="v-section-tit">Reader Quote</h4>
                     {% include quote.html %}
                 </div><!-- //violet-quotes -->
                 <div class="violet-project" id="J_porject">
