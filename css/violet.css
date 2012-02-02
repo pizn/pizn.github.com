@@ -441,7 +441,7 @@ body .fn-hide { display:none; }
 .violet-journal { margin-top: 15px; margin-left: 60px; height: auto; }
 .v-section-tit { padding: 0px 5px 0 0; color: #888; font-size: 18px; line-height: 30px; font-weight: 500; font-family: "Times New Roman",Times,serif; border-bottom: 1px solid #e8e8e8; }
 .v-section-tit span { display: inline; font-family: Verdana; font-size: 10px; line-height: 12px; }
-.v-section-tit h2 { font-size: inherit; padding: inherit; margin: inherit; line-break: inherit;}
+.v-section-tit h2 { display: inline; font-size: inherit; padding: inherit; margin: inherit; line-break: inherit;}
 .v-excerpt { padding: 20px 0; border-bottom: 1px solid #e8e8e8; border-top: 1px solid #fff; }
 .v-excerpt-title { margin-bottom: 12px; }
 .v-excerpt-title a { font-size: 18px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
