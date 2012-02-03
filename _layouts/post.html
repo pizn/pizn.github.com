@@ -40,7 +40,7 @@ isPost: true
                         <article class="recent-post">
                             <h4 class="v-section-tit">Recent Articles</h4>
                             <ul>
-                            {% for rpost in site.posts limit:8  %}   
+                            {% for rpost in site.related_posts limit:8  %}   
                                 <li>
                                     <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
                                 </li>                                   
