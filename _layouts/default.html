@@ -11,11 +11,11 @@
    -->
     <meta charset="utf-8" />
     <title>
-    	{% if page.title %}
-    		{{ page.title }}
-    	{% else %}
-    		{{ site.title }}
-    	{% endif %}   		
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}         
     </title>
     <meta name="generator" content="Jekyll" />
     <meta name="author" content="{{ site.author.name }}" />
@@ -36,6 +36,7 @@
     </div>
     <![endif]-->
     <header class="head">
+        <div class="head-cnt">
         <div class="ui-grid-25 ui-grid-right ui-grid-bottom">
             <div class="ui-grid-20 header-line"></div>
             <div class="ui-grid-20 header">
@@ -146,11 +147,13 @@
                 <a href="/atom.xml" target="_blank" rel="nofollow" class="subscribe">RSS</a>
             </div><!-- //violet-flower -->
         </div><!-- //grid-20 -->
+        </div>
     </header><!-- //head -->
     <div class="head-bar">
     </div><!-- //head-bar -->    
     {{ content }}
     <footer class="foot fn-clear">
+        <div class="foot-cnt">
         <div class="ui-grid-25 ui-grid-right ui-grid-bottom">
             <section class="ui-grid-13 violet-submenu">
                 <ul>
@@ -167,6 +170,7 @@
             <section class="ui-grid-4 violet-copyright">
                 <p>Copyright © 2011–2012 PIZn All rights reserved.</p>
             </section>
+        </div>
         </div>
     </footer>
     <a class="v-fork-me" href="https://github.com/pizn/pizn.github.com" target="_blank" rel="nofollow">

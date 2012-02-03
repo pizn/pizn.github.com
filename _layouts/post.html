@@ -3,6 +3,7 @@ layout: default
 isPost: true
 ---
     <section class="content fn-clear">
+        <div class="content-cnt">
         <div class="ui-grid-25 ui-grid-right content-top">
             <section class="ui-grid-23 violet-post">
                 <div class="v-section-tit">
@@ -37,17 +38,18 @@ isPost: true
                     </div>                   
                     <div class="ui-grid-6 v-post-aside">
                         <article class="recent-post">
-                        	<h4 class="v-section-tit">Recent Articles</h4>
+                            <h4 class="v-section-tit">Recent Articles</h4>
                             <ul>
                             {% for rpost in site.posts limit:8  %}   
-                				<li>
-                					<a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
-                				</li>              	      	            
-                			{% endfor %}
+                                <li>
+                                    <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
+                                </li>                                   
+                            {% endfor %}
                             </ul>
                         </article>
                     </div><!-- //v-post-aside -->
                 </div>
             </section><!-- //violet-post -->
+        </div>
         </div>
     </section><!-- //content -->

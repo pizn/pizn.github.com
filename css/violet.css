@@ -1319,3 +1319,10 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .feeler-l1 { border: 1px solid #000; border-radius: 100px; width: 120px; height:  120px; position: absolute; left: -93px; top: -8px; }
 .feeler-r { position: absolute; top: -23px; left: 50px; z-index: 300; width: 30px; height: 26px; overflow: hidden; }
 .feeler-r1 { border: 1px solid #000; border-radius: 100px; width: 100px; height:  100px; position: absolute; left: -85px; top: -28px; }
+
+/** center layout **/
+.head-cnt, .b-cnt, .content-cnt, .foot-cnt {
+    margin: 0 auto;
+    width: 990px;
+    height: auto;
+}
