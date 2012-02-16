@@ -1,5 +1,6 @@
 markdown: rdiscount
 pygments: true
+plugins: ./_plugins
 
 title: PIZn
 url: http://www.pizn.me
