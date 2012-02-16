@@ -3,6 +3,7 @@ layout: post
 title: 优化 Jekyll 站点的 SEO 技巧
 description: 在使用 Jekyll 搭建个人博客的时候，将 SEO 优化的细节融入到博客主题中，有利于搜索引擎的对站点内容的抓取，为您的网站带来有价值的流量。本文将为你分享一些 Jekyll SEO 技巧。
 keywords: Jekyll, SEO, title, blog, site, google, violet, GitHub, 搜索引擎, 标题, 关键字, 描述, description, keywords
+category: Jekyll
 ---
 很多时候，我们搭建了一个博客，但很少有人来访问。一方面可能是因为我们没有做好推广，另外一方面可能是我们没做好 <strong>SEO</strong> 。在使用 <strong>Jekyll</strong> 搭建这个博客的时候，我将 <strong>SEO</strong> 的一些优化点融入到 <strong>Violet</strong> 主题中来。经过一段时间的测试和观察，期望的效果已经达到。
 

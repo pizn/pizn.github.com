@@ -3,6 +3,7 @@ layout:     post
 title:      GitHub pages 使用独立域名
 description: 我的 github 博客使用新域名了！
 keywords: pizn.me, GitHub, site
+category: GitHub
 ---
 ###GitHub Pages 使用独立域名
 

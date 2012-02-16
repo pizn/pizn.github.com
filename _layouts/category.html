@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="content fn-clear">
+	<div class="content-cnt">
+    <div class="ui-grid-25 ui-grid-right content-top">
+            <section class="ui-grid-19 violet-post">
+                <h4 class="v-section-tit">Category:&nbsp;&nbsp{{ page.category }}</h4>
+                {% for post in site.categories.[page.category] %}
+                <div class="violet-archive fn-clear">
+                	<p class="ui-grid-2 year">{{ post.date | date: '%Y' }}</p>
+                	<div class="ui-grid-17 ui-grid-right ui-grid-bottom">
+                		<article class="article fn-clear">
+                            <div class="ui-grid-6 v-archive-tit">
+                                <p class="v-date"><span>&#8227;</span><time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date: '%b %d' }}</time></p>
+                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            </div>
+                            <div class="ui-grid-11 v-archive-det">
+                                <p>{{ post.description }}</p>
+                            </div>
+                        </article><!-- //archive -->
+                	</div>
+            	</div>
+            	{% endfor %}                            
+            </section><!-- //violet-post -->
+            {% include aside.html %}
+        </div>
+	</div>
+</section><!-- //content -->

@@ -37,6 +37,14 @@ isPost: true
                          </div><!-- //violet-comment -->
                     </div>                   
                     <div class="ui-grid-6 v-post-aside">
+                    	<article class="category">
+                    		<h4 class="v-section-tit">Category</h4>
+                        	<ul>
+                        		{% for category in site.categories %}
+                        		<li class="v-category-item"><a href="/category/{{ category | first }}/" title="view all posts filed under {{ category | first }}">{{ category | first }} <span>({{ category | last | size }})</span></a></li>
+                        		{% endfor %}
+                    		</ul>
+                    	</article>
                         <article class="recent-post">
                             <h4 class="v-section-tit">Recent Articles</h4>
                             <ul>

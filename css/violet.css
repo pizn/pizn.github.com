@@ -877,6 +877,13 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     margin: 0 0;
     padding: 50px 20px 50px 0;
 }
+.v-post-aside .category {
+	padding-left: 13px;
+	margin-bottom: 30px;
+}
+.v-post-aside .v-category-item span {
+	color: #E18B3A;
+}
 .v-post-aside .recent-post {
     padding-left: 13px;
 }
