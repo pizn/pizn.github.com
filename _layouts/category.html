@@ -5,7 +5,13 @@ layout: default
 	<div class="content-cnt">
     <div class="ui-grid-25 ui-grid-right content-top">
             <section class="ui-grid-19 violet-post">
-                <h4 class="v-section-tit">Category:&nbsp;&nbsp{{ page.category }}</h4>
+                <div class="v-section-tit">
+                	<a href="/" rel="nofollow" >Home</a>
+                    <span>&#9830;</span>
+                    <a href="/archives.html" rel="nofollow" >Archives</a>
+                    <span>&#9830;</span>
+                    <h2>Category:&nbsp;&nbsp{{ page.category }}</h2>
+                </div>
                 {% for post in site.categories.[page.category] %}
                 <div class="violet-archive fn-clear">
                 	<p class="ui-grid-2 year">{{ post.date | date: '%Y' }}</p>
