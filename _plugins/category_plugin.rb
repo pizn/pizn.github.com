@@ -1,4 +1,3 @@
-module Jekyll
 
   class CategoryIndex < Page
     def initialize(site, base, dir, category)
