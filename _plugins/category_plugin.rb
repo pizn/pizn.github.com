@@ -10,9 +10,9 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'category.html')
       self.data['category'] = category
-
-      category_title_prefix = site.config['category_title_prefix'] || '#'
-      self.data['title'] = "#{category_title_prefix}#{category}"
+      self.data['title'] = "Archives for " + category + " Category"
+      self.data['keywords'] = category
+      self.data['description'] = "Archives for " + category + " Category."
     end
   end
 
