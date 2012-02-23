@@ -47,14 +47,6 @@ isPost: true
                             {% endfor %}
                             </ul>
                         </article>
-                        <article class="category">
-                            <h4 class="v-section-tit">Category</h4>
-                            <ul>
-                                {% for category in site.categories %}
-                                <li class="v-category-item"><a href="/category/{{ category | first }}/" title="view all posts filed under {{ category | first }}">{{ category | first }} <span>({{ category | last | size }})</span></a></li>
-                                {% endfor %}
-                            </ul>
-                        </article>
                     </div><!-- //v-post-aside -->
                 </div>
             </section><!-- //violet-post -->
