@@ -1057,6 +1057,29 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #f0f0f0;
 }
+.v-entry img.img-right {
+    margin: 5px 0px 5px 10px;
+    display: inline;
+    float: right;
+    padding: 3px 3px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 0 4px #d0d0d0;
+}
+.v-entry img.img-center {
+    margin: 5px auto;
+    display: block;
+    padding: 3px 3px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 0 4px #d0d0d0;
+}
+.v-entry img.img-left {
+    margin: 5px 10px 5px 0;
+    display: inline;
+    float: left;
+    padding: 3px 3px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 0 4px #d0d0d0;
+}
 
 .v-announce {
     margin: 20px 10px 15px 0;
