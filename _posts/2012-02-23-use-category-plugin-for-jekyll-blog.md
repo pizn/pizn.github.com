@@ -11,3 +11,5 @@ category: Jekyll
 假如您也想在你的博客上实现这样的效果（如右图）, 请看下文。
 
 <img src="/resources/category-list.jpg" alt="categroy list" class="img-right">
+
+在某些地方，例如文章页面，你可能希望在侧边栏添加这样的功能。有一个分类目录，还能显示出分类文章的篇数。
