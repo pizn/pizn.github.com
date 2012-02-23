@@ -60,6 +60,10 @@ posts"&gt;{\{ category | first }\} {\{ category | last | size }\}&lt;/a&gt;
 {\% endfor %\}
 </pre>
 
+你也可以参考我的分类主页来设计自己的分类主页，具体的效果，我截个图看看。地址为我的根目录下 layouts 里面。
+
+<img src="/resources/category-index.jpg" alt="category index" class="img-center" />
+
 ###五、我们写的代码最终是如何完成工作的？
 
 Ok, 在完成上面的步骤之后，我们需要编译一遍。在终端 cd 到你的博客目录，输入 <code class="v-code">jekyll --server</code> ，然后再回头看看我们的博客文件夹。
