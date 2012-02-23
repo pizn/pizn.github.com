@@ -38,20 +38,39 @@ category: Jekyll
 posts"&gt;{\{ category | first }\} {\{ category | last | size }\}&lt;/a&gt;
     &lt;/li&gt;
     {\% endfor %\}
+&lt;/ul&gt;
 </pre>
 
 ###三、为博客添加 category 插件
 
-添加 category 插件很简单，只要在根目录下建立一个 "_plugins" 文件夹，然后拷贝
-category_plugin.rb (该文件在我的文件中的 _plugins 目录下) 文件到里面就好了。
+添加 category 插件很简单，只要在根目录下建立一个 "plugins" 文件夹，然后拷贝 category_plugin.rb (该文件在我的文件中的 plugins 目录下) 文件到里面就好了。
 
 这个插件的作用有两点：
 
 * 建立 categories 文件夹, 遍历所有文章的分类，再根据分类建立分类的文件夹。
-* 为每个分类建立一个 index.html 文件, 该文件的模板来自 _layouts 里面的 category_index.html，因此您需要在 _layouts 里面添加符合自己博客主题的文件。
+* 为每个分类建立一个 index.html 文件, 该文件的模板来自 layouts 里面的 category_index.html，因此您需要在 layouts 里面添加符合自己博客主题的文件。
 
 ###四、添加 category_index.html 模板
 
 这个模板是为了将我们的分类主页显示出来，显示的内容是一个分类的所有文章。也就是分
 类列表的链接地址。具体使用到的代码如下：
+<pre class="html" name="colorcode">
+{\% for post in site.categories.[page.category] %\}
+    {\{ post.date }\} {\{ post.title }\}
+{\% endfor %\}
+</pre>
 
+###五、我们写的代码最终是如何完成工作的？
+
+Ok, 在完成上面的步骤之后，我们需要编译一遍。在终端 cd 到你的博客目录，输入 <code class="v-code">jekyll --server</code> ，然后再回头看看我们的博客文件夹。
+
+在 site 文件夹下，你会发现多了一个 categories 文件，里面就有包含的所有分类文件夹。同时，你也会发现在与 categories 同级的文件下也有这些分类文件夹，但他们存放的是我们的所有分类文章。
+
+还有个变化，就是我们的文章链接 URL，添加了分类的文章，在日期前面会多了分类的名称。例如：pizn.me/Jekyll/2012/02/23/user-category-plugin-for-jekyll-blog.html
+
+###六、需要注意的，还有我疑惑的（需要大家帮忙看看的）
+
+因为添加了插件，所以要确保你的 config.yml 文件里面的 safe 属性值为 false，因为这
+个属性值为 true 的时候是使自定义插件失效。
+
+我疑惑的是，我在本地完成上面的步骤之后，分类列表的每个分类链接可以成功到达分类的详细列表页面（即 category_index.html)，然而我上传到 github，没有报错，却无法到达那个页面，显示 404 错误。求大牛帮忙解决。
