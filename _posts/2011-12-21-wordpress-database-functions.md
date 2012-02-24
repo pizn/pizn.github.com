@@ -3,7 +3,6 @@ layout: post
 title: WordPress 数据库操作常用函数
 description: 最近还在折腾 WordPress, 对一些数据库操作方面的使用，在这里总结一下。WordPress 提供了一些数据库操作上的方法，简单而且比较方便。
 keywords:  hello, wordpress
-category: WordPress
 ---
 最近还在折腾 WordPress, 对一些数据库操作方面的使用，在这里总结一下。WordPress 提
 供了一些数据库操作上的方法，简单而且比较方便。

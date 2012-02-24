@@ -3,7 +3,6 @@ layout: post
 title: Violet 2.0 开始在 PIZn.Me 实践
 description: Violet 是 PIZn 的网站界面设计思想。在 2.0 版本中，通过对 html5 和 css3 的实践，来实现需要图片完成的界面。
 keywords: Violet, PIZn, html5, css3, Jekyll, GitHub, Javascript
-category: Violet
 ---
 经过 2 个星期空闲时间的努力，<strong>Violet 2.0</strong> 终于登陆 PIZn 在 GitHub 搭建的个人博客。对，就是 PIZn.Me 。
 
