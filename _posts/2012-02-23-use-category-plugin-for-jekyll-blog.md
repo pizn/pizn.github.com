@@ -43,7 +43,7 @@ posts"&gt;{\{ category | first }\} {\{ category | last | size }\}&lt;/a&gt;
 
 ###三、为博客添加 category 插件
 
-添加 category 插件很简单，只要在根目录下建立一个 "plugins" 文件夹，然后拷贝 category_plugin.rb (该文件在我的文件中的 plugins 目录下) 文件到里面就好了。
+添加 category 插件很简单，只要在根目录下建立一个 "plugins" 文件夹，然后拷贝category_plugin.rb 文件到里面就好了。category_plugin 文件的源代码可以在<a href="https://gist.github.com/1899497" title="The gist for category plugin" target="_blank" >这里</a>查看到。
 
 这个插件的作用有两点：
 
@@ -60,7 +60,7 @@ posts"&gt;{\{ category | first }\} {\{ category | last | size }\}&lt;/a&gt;
 {\% endfor %\}
 </pre>
 
-你也可以参考我的分类主页来设计自己的分类主页，具体的效果，我截个图看看。地址为我的根目录下 layouts 里面。
+你也可以参考我的分类主页来设计自己的分类主页，具体的效果，我截个图看看。我的分类主页的源代码在<a href="https://gist.github.com/1899544" target="_blank" title="The gist for category index page">这里</a>。
 
 <img src="/resources/category-index.jpg" alt="category index" class="img-center" />
 
