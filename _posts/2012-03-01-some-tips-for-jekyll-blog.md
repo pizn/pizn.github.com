@@ -5,7 +5,7 @@ description: 也许你已经懂得如何使用 Jekyll 搭建一个简单的博�
 keywords: Jekyll, blog, 博客, YAML, include, layout, aside
 ---
 
-在搭建 <strong>PIZn.Me</strong> 的时候，我就尝试更好地规划自己的这个<strong>Jekyll</strong> 博客。回过头来，总结了几点个人觉得有用的小技巧，希望对<strong>Jekyll</strong> 爱好者有所帮助，也欢迎一起学习讨论。
+在搭建 <strong>PIZn.Me</strong> 的时候，我就尝试更好地规划自己的这个 <strong>Jekyll</strong> 博客。回过头来，总结了几点个人觉得有用的小技巧，希望对 <strong>Jekyll</strong> 爱好者有所帮助，也欢迎一起学习讨论。
 
 ###一、使用 include 拆分你的页面结构
 
@@ -21,7 +21,7 @@ class="v-code">{\{ content }\}</code> 读取中间这部分的内容。而中间
 
 <a href="http://yaml.org/" targt="_blank" rel="nofollow" title="YAML">YAML</a>是 Jekyll 的一个重要组成部分。 <strong>YAML</strong> 是一种直观的能够被电脑识别的的数据数据序列化格式，他并且容易被人类阅读，容易和脚本语言交互的。
 
-用我自己的理解，我将它理解为一些可自定义的 "勾"，在 Jekyll 博客中的文件头部的一个 "区块" 。使用在 _confiy.yml 配置文件中，在每一篇 post 中，在每一个静态页面中。
+用我自己的理解，我将它理解为一些可自定义的 "钩子"，在 Jekyll 博客中的文件头部的一个 "区块" 。使用在 _confiy.yml 配置文件中，在每一篇 post 中，在每一个静态页面中。
 
 例如下面的代码片段：
 <pre class="html" name="colorcode">
