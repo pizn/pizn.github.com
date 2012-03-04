@@ -63,7 +63,7 @@ url: http://www.pizn.me
 
 我的实现方式是这样的，你也可以通过修改 <code class="v-code">autocomplete</code>
 的实例来实现不同的展现效果。
-<pre class="javascript" name="colorcode">
+<pre class="js" name="colorcode">
 $(function() {
 		$.ajax({
             url: "search.xml",
