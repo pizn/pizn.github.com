@@ -19,9 +19,6 @@ class="v-code">search.xml</code>，以便我们后续的工作。
 具体的写法如下：
 <pre class="html" name="colorcode">
 //jekyll 语法前反斜杆是为了转义输出，请去掉
----
-layout: none
----
 &lt;?xml version="1.0" encoding="UTF-8" ?&gt;
 &lt;articles&gt;
 {\% for post in site.posts %\}
@@ -101,4 +98,4 @@ $(function() {
 
 ###六、总结
 
-这是一个很简单的实现方法，因为就今晚几个小时做出来的，所以可能还有很多不适用性。还没完善的一个方面是出错处理，有空再补上。
+这是一个很简单的实现方法，因为就今晚几个小时做出来的，所以可能还有很多不适用性。兼容性方面还没做好测试，只兼容 Firefox 和 Chrome ，还没完善的一个方面是出错处理，有空再补上。
