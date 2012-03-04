@@ -1,8 +1,7 @@
 ---
-layout:  post
-title: 为 Jekyll 博客添加静态搜索
-description: 使用 Javascript 通过关键词来搜索博客中的相关文章，实现在 Jekyll 中
-的静态搜索。
+layout:        post
+title:          为 Jekyll 博客添加静态搜索
+description:    使用 Javascript 通过关键词来搜索博客中的相关文章，实现在 Jekyll 中的静态搜索。
 keywords: Jekyll, search, Javascript, Jquery, Jquery UI, blog, static search, xml, Ajax
 ---
 
