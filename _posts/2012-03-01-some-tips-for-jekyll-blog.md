@@ -76,6 +76,30 @@ follow me:
 
 但有些还是需要自定义的，例如<code class="v-code">permalink</code>，用来自定义url的格式，这对固定链接有重要作用。我们也可以定义全局 title, url, feed, description等。最终都会以<code class="v-code">site.xxx</code>来调用。
 
-###六、其他
+###六、灵活地为页面配置 CSS 和 Javascript
+
+我们的 Jekyll 博客，可能有很多不同的页面，展现、交互等形式都可能不同。那么，我们除了可以通过第三点讲过的 ”钩子" 方法来达到目的之外，还有另外的一种方法，为我们的页面配置不同的 CSS 和 Javascript 。
+
+首先，在 default.html 页面的头部和底部写上另一种形式的 “钩子“。如下：
+<pre class="html" name="colorcode">
+//一般，我们将 CSS 放在头部
+{\% for css in page.css %\}
+	&lt;link rel="stylesheet" href="{\{ css }\}" type="text/css" /&gt;
+{\% endfor %\}
+
+//一般，我们将 Javascript 放在底部
+{\% for js in page.javascript %\}
+	&lt;script type="text/javascript" src="{\{ js }\}" &gt;&lt;/script&gt;
+{\% endfor %\}
+</pre>
+
+其次，在我们的特定页面，在文件的头部 YAML 部分添加属于该页面的 CSS 或者 Javascript 链接。
+<pre class="html" name="colorcode">
+javascript:
+	- /javascript/jquery.js
+	- /javascript/violet.js
+</pre>
+
+###七、其他
 
 假如你有其他更好的小技巧，一起分享哈！
