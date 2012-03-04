@@ -197,6 +197,30 @@
             (document.getElementsByTagName('head')[0] ||
                 document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
+        
+        //goTop
+        $(document).ready(function() {
+            var scrHeight, topId, topHeight;
+            topId = $("#J_gotop");
+            $(function() {
+                $(window).bind(
+                    "scroll", 
+                    function(){
+                        scrHeight = $(window).scrollTop();
+                        if(scrHeight > 300) {
+                            topId.fadeIn(1500);
+                            topHeight = scrHeight + 120;
+                            topId.parent().css({top: topHeight});
+                        } else {
+                            topId.fadeOut(1500);
+                        }
+                    }
+                );
+                topId.click(function() {
+                        $('body, html').animate({scrollTop: 0}, 1200);
+                    });
+            })
+        });
     </script>
     {% endif %}
     {% if(page.isPlugin) %}
