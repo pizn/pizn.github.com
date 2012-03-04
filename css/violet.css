@@ -1358,6 +1358,14 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
     height: auto;
 }
 
+/** violet qr **/
+.violet-qr {
+    margin: 10px 0 20px;
+}
+.violet-qr-img {
+    margin: 15px 0px 0px;
+}
+
 /** go top **/
 .violet-gotop {
     position: absolute;
