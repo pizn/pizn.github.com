@@ -22,24 +22,26 @@ keywords: Jekyll, Demo, Web Development, head, foot, content
 
 ###如何使用 Jekyll 开发 Demo ？
 
-恩，也许你还不知道啥是<a href="http://www.jekyllrb.com" rel="nofollow" title="Jekyll"><strong>Jekyll</strong></a>，没关系，PIZn.Me 就是使用<strong>Jekyll</strong> 搭建起来的。你可以在这里找到 <strong>Jekyll</strong> 的很多相关文章。
+恩，也许你还不知道啥是 <a href="http://www.jekyllrb.com" target="_blank"
+rel="nofollow" title="Jekyll"><strong>Jekyll</strong></a>，没关系，
+<strong>PIZn.Me</strong> 就是使用 <strong>Jekyll</strong> 搭建起来的。你可以在这里找到 <strong>Jekyll</strong> 的很多相关文章。
 
 Ok，基于平时自己遇到的一些问题，还有 Jekyll 的方便性，我尝试着这样去做页面的开发，舒服多了，效率也提上来了。
 
 * 本地安装 Jekyll 。
 * 新建项目文件夹，至少需要下面几个文件：
 <pre class="html" name="colorcode">
-    xxx项目
-        |--_layouts(布局)
-            |--default.html
-        |--_includes(模块化)
-            |--head.html
-            |--foot.html
-        |--css
-        |--js
-        |--html
-        |--images
-        |--_config.yml(配置文件)
+xxx项目
+    |--_layouts(布局)
+        |--default.html
+    |--_includes(模块化)
+        |--head.html
+        |--foot.html
+    |--css
+    |--js
+    |--html
+    |--images
+    |--_config.yml(配置文件)
 </pre>
 * 通过布局来配置我们的公用模块，简化每个 Demo 的工作量。
 * 通过 include 来规划组件化模块，一个页面可以看成是很多组件构建起来的。
