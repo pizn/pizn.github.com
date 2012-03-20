@@ -31,7 +31,7 @@ class="v-code">search.xml</code>，以便我们后续的工作。
 
 ###二、添加 DOM 结构
 
-DOM 结构就是 HTML 代码啦。你可以添加到你希望的地方，但要注意一点，就是你添加 DOM 结构的地方要有相应的 CSS 链接和 JS 链接。我把这个简单的搜索功能放在 Archive.html 里面，不清除的同学可以去看源代码哈。
+DOM 结构就是 HTML 代码啦。你可以添加到你希望的地方，但要注意一点，就是你添加 DOM结构的地方要有相应的 CSS 链接和 JS 链接。我把这个简单的搜索功能放在 Archive.html里面，不清楚的同学可以去看源代码哈。
 
 添加 <strong>Jquery UI</strong> 样式和 <strong>JS</strong> 链接。我在这里采用的是 jquery-ui-1.8.18.custom 版本。DOM 结构保存在同一个页面。
 
