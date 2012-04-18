@@ -258,18 +258,21 @@ body .fn-hide { display:none; }
     background: linear-gradient(-90deg, #fefefe 0%, #f6f6f6 70%, #f0f0f0 90%, #e5e5e5 100%);
 }
 /** banner **/
-.banner { height: 162px; margin-top: 15px; }
+.banner { height: 162px; margin-top: 30px; }
 .banner-cnt {
     position: relative;
     margin-left: 60px;
     margin-bottom: 0;
     height: 160px;
     background: #fefefe;
-    border: 1px solid #e8e8e8;
-    -moz-box-shadow: 0 0 8px #dfdfdf;
-    -webkit-box-shadow: 0 0 8px #dfdfdf;
-    -o-box-shadow: 0 0 8px #dfdfdf;
-    box-shadow: 0 0 8px #dfdfdf;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    -moz-box-shadow: 3px 3px 0 #e0e0e0;
+    -webkit-box-shadow: 3px 3px 0 #e0e0e0;
+    -o-box-shadow: 3px 3px 0 #e0e0e0;
+    box-shadow: 3px 3px 0 #e0e0e0;
     overflow: hidden;
 }
 @font-face {
@@ -427,7 +430,7 @@ body .fn-hide { display:none; }
 .content { width: 100%; height: auto; }
 .content a { color: #4D8BB4; }
 .content a:hover { color: #800808; }
-.content .v-more, .content .v-more-right { margin-bottom: 0; }
+.content .v-more, .content .v-more-right { margin-bottom: 0;text-align:right}
 .content .v-more a, .content .v-more-right a { font-family: Verdana,Arial,Helvetica,sans-serif; line-height: 18px; padding: 2px 6px 2px 0; border-radius: 3px 3px; background: #e18b3a; color: #fff; cursor: pointer; }
 .content .v-more a span, .content .v-more-right a span { padding-right: 2px; color: #fff; }
 .content .v-more a:hover, .content .v-more-right a:hover { text-decoration:  none; background: #f10072; }
@@ -438,7 +441,7 @@ body .fn-hide { display:none; }
 .content .v-span { color: #b0b0b0; }
 
 /** violet-journal **/
-.violet-journal { margin-top: 15px; margin-left: 60px; height: auto; }
+.violet-journal { background: none repeat scroll 0 0 #FFFFFF; margin: 0; padding: 50px 20px 50px 40px; }
 .v-section-tit { padding: 0px 5px 0 0; color: #888; font-size: 18px; line-height: 30px; font-weight: 500; font-family: "Times New Roman",Times,serif; border-bottom: 1px solid #e8e8e8; }
 .v-section-tit span { display: inline; font-family: Verdana; font-size: 10px; line-height: 12px; }
 .v-section-tit h2 { display: inline; font-size: inherit; padding: inherit; margin: inherit; line-break: inherit;}
@@ -475,7 +478,7 @@ body .fn-hide { display:none; }
 .v-project-normal p { text-indent: 24px; padding-bottom: 10px;}
 
 /** violet-about **/
-.violet-about { margin-top: 15px; margin-bottom: 20px; height: auto; }
+.violet-about { margin-bottom: 20px; height: auto;  padding-left: 13px;}
 .violet-about-det { padding: 20px 0 10px 0; border-bottom: 1px solid #d8d8d8;  }
 .violet-about-det p img { background: #fff; padding: 2px 2px; }
 .violet-about-det p { padding-bottom: 10px; font-size: 13px; line-height: 18px; font-family: Verdana,Arial,Helvetica,sans-serif; color: #686868; }
@@ -483,8 +486,8 @@ body .fn-hide { display:none; }
 .violet-about-det em { padding: 0 2px; font-weight: 700; border-bottom: 1px dotted #e8e8e8; }
 
 /** v-my-face **/
-.v-my-face { width: 150px; height:  104px; -moz-box-shadow: 0 0 4px #d0d0d0; -webkit-box-shadow: 0 0 4px #d0d0d0; -o-box-shadow: 0 0 4px #d0d0d0; box-shadow: 0 0 4px #d0d0d0; background:  #333; }
-p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
+.v-my-face { width: 217px; height:  104px; -moz-box-shadow: 0 0 4px #d0d0d0; -webkit-box-shadow: 0 0 4px #d0d0d0; -o-box-shadow: 0 0 4px #d0d0d0; box-shadow: 0 0 4px #d0d0d0; background:  #fefefe; }
+p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 .v-my-face img {
     cursor: pointer;
     width: 146px;
@@ -512,7 +515,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 }
 .v-my-face span { display:  none; }
 .v-my-face-hover { position:  relative; cursor: pointer; }
-.v-my-face-hover span { text-align:  center; color: #fff; position:  absolute; display: block; width: 146px; height:  60px; padding: 41px 1px 1px 1px; border: 1px solid #555; top: 0 ; left: 0; background: rgba(0, 0, 0, 0.8); }
+.v-my-face-hover span { text-align:  center; color: #fff; position:  absolute; display: block; width: 217px; height:  60px; padding: 41px 1px 1px 1px; border: 1px solid #555; top: 0 ; left: 0; background: rgba(0, 0, 0, 0.8); }
 
 /** violet-attent **/
 .violet-attent-det { border-top: 1px solid #fff; padding: 10px 0; }
@@ -796,11 +799,10 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 }
 /** violet-face2face **/
 .violet-face2face {
-    margin: 15px 0;
+    margin: 0 auto;
     width: 730px;
     height: 200px;
     background: url(/images/faceall.jpg) no-repeat 0 0;
-    box-shadow: 3px 3px 6px #dedede;
 }
 .violet-face2face ul li {
     float: left;
@@ -1158,6 +1160,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .v-plugin-desc p img, .v-plugin-meta p img { padding: 1px 1px;
     border: 1px solid #e0e0e0;
     background: #fff; }
+.v-plugin-meta { padding-left: 16px;}
 .v-plugin-desc ul, .v-plugin-meta ul { margin-left: 15px; margin-bottom: 10px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 13px; list-style-type: square; }
 .v-plugin-desc ul li { line-height: 21px; }
 .v-plugin-desc .violet-download {
@@ -1211,7 +1214,7 @@ p.v-my-face { padding-bottom: 0; margin-bottom: 10px;}
 .violet-work-tit h3 { font-family: "Times New Roman",Times,serif; font-size: 18px; line-height: 27px; font-weight: 700; color: #489620; padding-bottom: 10px; }
 .violet-work-tit p { font-size: 13px; line-height: 18px; padding-bottom: 10px; }
 
-.violet-work-det { margin: 0 0; height: auto; }
+.violet-work-det { margin: 0 0; height: auto; text-align: right;}
 .violet-work-det img { padding: 2px 2px; box-shadow: 0px 0px 3px #d0d0d0; }
 
 @-webkit-keyframes flipInYL {

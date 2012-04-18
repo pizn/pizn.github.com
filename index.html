@@ -16,12 +16,14 @@ isIndex: true
 
     <section class="content fn-clear">
         <div class="content-cnt">
-        <div class="ui-grid-25 ui-grid-right content-top">
-            <section class="ui-grid-13 violet-journal">
+        <div class="ui-grid-25 ui-grid-right content-top">	
+        	<div class="ui-grid-23 violet-post">
+                <div class="violet-post-det fn-clear">
+            <section class="ui-grid-15 violet-journal">
                 <h4 class="v-section-tit">Last Journal</h4>
                 {% for rpost in site.posts limit:5 %}
                 <article class="v-excerpt fn-clear">
-                    <div class="ui-grid-5 ui-grid-bottom">
+                    <div class="ui-grid-7 ui-grid-bottom">
                         <h3 class="v-excerpt-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
                         <p class="v-date"><span>&#8227;</span><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
                     </div>
@@ -38,16 +40,10 @@ isIndex: true
                 </article><!-- //v-post-list -->
                 {% endfor %}
             </section><!-- //Journal -->
-            <section class="ui-grid-6">
-                <div class="violet-quotes">
-                    <h4 class="v-section-tit">Reader Quote</h4>
-                    {% include quote.html %}
-                </div><!-- //violet-quotes -->
-                <div class="violet-project" id="J_porject">
-                    <h4 class="v-section-tit">GitHub Project</h4>
-                </div>
-            </section><!-- //Quotes -->
+            
             {% include aside.html %}
+            </div>
+            </div>
         </div>
         </div>
     </section><!-- //content -->
