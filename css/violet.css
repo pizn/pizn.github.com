@@ -1147,7 +1147,12 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 .violet-archive { padding: 20px 0 0; }
 .violet-archive .year { padding-top: 10px; height: 100px; font-family: "Times New Roman",Times,serif; font-size: 28px; font-style: italic; color: #8f006d; background: url(../images/yearbg.png) no-repeat -15px 0; text-indent: 10px; }
 .violet-archive .article { margin: 0 0; padding-top: 10px; border-bottom: 1px dotted #d9d9d9; }
-.violet-archive .article:hover { background: #f5f5f5; }
+.violet-archive .article:hover { background: #f5f5f5; 
+    background: -moz-linear-gradient(-90deg, #ffffff 0%, #fefefe 60%, #f5f5f5 100%);
+    background: -webkit-linear-gradient(-90deg, #ffffff 0%, #fefefe 60%, #f5f5f5 100%);
+    background: -ms-linear-gradient(-90deg, #ffffff 0%, #fefefe 60%, #f5f5f5 100%);
+    background: linear-gradient(-90deg, #ffffff 0, #fefefe 60%, #f5f5f5 100%);
+}
 .violet-archive .v-archive-tit { color: #489620; }
 .violet-archive .v-archive-tit h3 a { font-family: "Times New Roman",Times,serif; font-size: 16px; font-weight: 700; color: #489620; }
 .violet-archive .v-archive-tit h3 a:hover { color: #246105; text-decoration: none; }
