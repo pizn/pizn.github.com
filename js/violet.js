@@ -120,7 +120,7 @@ var violet = violet || {
                     				   </article>';
                     		$(id).append(project);
     					}
-    					project = '<p class="v-more-right"><a href="https://github.com/' + user + '" target="_blank" title="PIZn on github"><span>&#10149;</span>All Projects</a></p>';
+    					project = '<p class="v-more-right v-project-mor"><a href="https://github.com/' + user + '" target="_blank" title="PIZn on github"><span>&#10149;</span>All Projects</a></p>';
     					$(id).append(project);
     				}
     			} else {
