@@ -444,9 +444,9 @@ body .fn-hide { display:none; }
 /** violet-journal **/
 .violet-journal { background: none repeat scroll 0 0 #FFFFFF; margin: 0; padding: 50px 20px 50px 40px; }
 .v-section-tit { padding: 0px 5px 0 0; color: #888; font-size: 18px; line-height: 30px; font-weight: 500; font-family: "Times New Roman",Times,serif; border-bottom: 1px solid #e8e8e8; }
-.v-section-tit span { display: inline; font-family: Verdana; font-size: 10px; line-height: 12px; }
+.v-section-tit span { display: inline; font-family: "Times New Roman",Times,serif; font-size: 12px; line-height: 12px; color: #e58b3a; }
 .v-section-tit h2 { display: inline; font-size: inherit; padding: inherit; margin: inherit; line-break: inherit;}
-.v-excerpt { padding: 20px 0; border-bottom: 1px solid #e8e8e8; border-top: 1px solid #fff; }
+.v-excerpt { padding: 20px 0; border-bottom: 1px dotted #e8e8e8; border-top: 1px solid #fff; }
 .v-excerpt:hover { background: #f5f5f5;
 	background: -moz-linear-gradient(-90deg, #ffffff 0%, #fefefe 80%, #f5f5f5 100%);
     background: -webkit-linear-gradient(-90deg, #ffffff 0%, #fefefe 80%, #f5f5f5 100%);
@@ -458,7 +458,7 @@ body .fn-hide { display:none; }
 .v-excerpt-title a:hover, .v-post-list .v-post-title a:hover { color: #246105; text-decoration: none; }
 .v-excerpt-det { font-size: 13px; line-height: 21px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; margin-bottom: 0; }
 .v-excerpt-det p { margin-bottom: 10px; }
-.v-post-list { padding: 8px 0; border-top: 1px solid #fff; border-bottom: 1px solid #e8e8e8; }
+.v-post-list { padding: 8px 0; border-top: 1px solid #fff; border-bottom: 1px dashed #e8e8e8; }
 .v-post-list:hover { background: #f5f5f5; 
 	background: -moz-linear-gradient(-90deg, #ffffff 0%, #fefefe 80%, #f5f5f5 100%);
     background: -webkit-linear-gradient(-90deg, #ffffff 0%, #fefefe 80%, #f5f5f5 100%);
