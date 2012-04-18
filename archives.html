@@ -8,8 +8,14 @@ isArchive: true
     <section class="content fn-clear">
         <div class="content-cnt">
         <div class="ui-grid-25 ui-grid-right content-top">
-            <section class="ui-grid-19 violet-post">
-                <h4 class="v-section-tit">Archives&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span><input id="J_search" class="violet-input" placeholder="Simple Search"/></h4>                
+        
+       	 	<div class="ui-grid-23 violet-post">
+                <div class="v-section-tit">
+                    <h4>Archives&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span><input id="J_search" class="violet-input" placeholder="Simple Search"/></h4>                
+                </div>
+                <div class="violet-post-det fn-clear">
+        
+            <section class="ui-grid-20 violet-post v-post-detail">             
                 {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
                 <div class="violet-archive fn-clear">
                     <p class="ui-grid-2 year">{{ post_year1 }}</p>
@@ -37,7 +43,8 @@ isArchive: true
                     </div>
                 </div><!-- //violet-archive -->            
             </section><!-- //violet-post -->
-            {% include aside.html %}
+            </div>
+            </div>
         </div>
         </div>
     </section><!-- //content -->
