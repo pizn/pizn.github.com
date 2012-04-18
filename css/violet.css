@@ -1367,10 +1367,13 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 .violet-qr {
     margin: 10px 0 20px 15px;
 }
+.violet-qr-p {
+	background: #fff;
+	text-align: center;
+}
 .violet-qr-img {
     margin: 15px auto 0 auto;
-    padding: 1px 1px;
-    background: #fff;
+    padding: 2px 2px;
     border: 1px solid #dedede;
 }
 
