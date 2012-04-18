@@ -447,7 +447,7 @@ body .fn-hide { display:none; }
 .v-section-tit span { display: inline; font-family: Verdana; font-size: 10px; line-height: 12px; }
 .v-section-tit h2 { display: inline; font-size: inherit; padding: inherit; margin: inherit; line-break: inherit;}
 .v-excerpt { padding: 20px 0; border-bottom: 1px solid #e8e8e8; border-top: 1px solid #fff; }
-..v-excerpt:hover { background: #f5f5f5; }
+.v-excerpt:hover { background: #f5f5f5; }
 .v-excerpt-title { margin-bottom: 12px; }
 .v-excerpt-title a { font-size: 18px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
 .v-excerpt-title a:hover, .v-post-list .v-post-title a:hover { color: #246105; text-decoration: none; }
@@ -1145,7 +1145,7 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 
 /** violet-archive **/
 .violet-archive { padding: 20px 0 0; }
-.violet-archive .year { padding-top: 10px; font-family: "Times New Roman",Times,serif; font-size: 28px; font-style: italic; height: auto; color: #8f006d; }
+.violet-archive .year { padding-top: 10px; height: 100px; font-family: "Times New Roman",Times,serif; font-size: 28px; font-style: italic; height: auto; color: #8f006d; background: url(../images/yearbg.png) no-repeat 0 0; }
 .violet-archive .article { margin: 0 0; padding-top: 10px; border-bottom: 1px dotted #d9d9d9; }
 .violet-archive .article:hover { background: #f5f5f5; }
 .violet-archive .v-archive-tit { color: #489620; }
