@@ -1174,7 +1174,7 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 /** plugins **/
 .v-plugin { padding: 20px 0 0; height: auto; }
 .v-plugin-title { margin-bottom: 10px; border-bottom: 1px solid #e58b3a; }
-.v-plugin-title a { font-family: "Times New Roman",Times,serif; font-size: 20px; line-height: 27px; font-weight: 700; color: #d8d8d8; }
+.v-plugin-title a { font-family: "Times New Roman",Times,serif; font-size: 20px; line-height: 27px; font-weight: 700; color: #489620; }
 .v-plugin-title a:hover { color: #246105; text-decoration: none; }
 .v-plugin-desc, .v-plugin-meta { height: auto; margin-bottom: 0; }
 .v-plugin-desc h4, .v-plugin-meta h4 { margin-bottom: 10px; font-family: "Times New Roman",Times,serif; font-size: 14px; line-height: 24px; font-weight: 700; color: #8f006d; }
