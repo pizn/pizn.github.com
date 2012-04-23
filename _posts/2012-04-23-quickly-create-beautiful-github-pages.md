@@ -5,9 +5,7 @@ description: GitHub 为 Page 提供了几套漂亮的页面模板，如果你想
 keywords: GitHub, pages, Jekyll, markdown, layouts
 ---
 
-<strong>GitHub Pages</strong> 如今提供快速编辑的功能，方便项目创建一个在线的页面。今天小看了下，
-很赞，在此推荐给大家。其实现在创建一个页面，只需要 3 个步骤，也不用担心页面长得
-步好看了。
+<strong>GitHub Pages</strong> 如今提供快速编辑的功能，方便项目创建一个在线的页面。今天小看了下，很赞，在此推荐给大家。其实现在创建一个页面，只需要 3 个步骤，也不用担心页面长得不好看了。
 
  > The easiest way to quickly publish beautiful pages for you and your projects.
 
