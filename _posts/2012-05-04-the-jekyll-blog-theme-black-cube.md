@@ -11,20 +11,17 @@ blogTheme 项目是我之前在 Github 上建立的一个博客主题，这次�
 
 如果你喜欢这个主题，再去看下文吧：
 
-<img src="/resources/blackCubeTheme.jpg" alt="Black Cube Theme" style="img-center" width="580px" />
+<img src="/resources/blackCubeTheme.jpg" alt="Black Cube Theme" class="img-center" width="580px" />
 
 ###个性化设置
 
-该主题提供了比较方便的设置方法，主要在于修改<code
-class="v-code">_confim.yml</code>。包括修改分页数量，网站地址，博客名称，博客简
-介等。
+该主题提供了比较方便的设置方法，主要在于修改<code class="v-code">_confim.yml</code>。包括修改分页数量，网站地址，博客名称，博客简介等。
 
 ###使用方法
 
-您可以 clone 该主题的源代码，在您的 jekyll 服务器上运行 <code
-class="v-code">jekyll --server</code>，然后在浏览器上访问就可以看到了。
-
-或者 fork 到您的 github 博客上，就可以看到页面效果。
-
+您可以 clone 该主题的源代码，在您的 jekyll 服务器上运行 <code class="v-code">jekyll --server</code>，然后在浏览器上访问就可以看到了。或者 fork 到您的 github 博客上，就可以看到页面效果。
 增加博客文章，需要您在 <code class="v-code">_posts</code> 下编写文章就好。
 
+###更多需求？
+
+恩，给我发邮件，我比较忙，但会及时回复你的:D
