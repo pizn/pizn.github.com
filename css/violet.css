@@ -482,7 +482,7 @@ body .fn-hide { display:none; }
 .github-project { height: auto; margin-bottom: 30px; margin-left: 60px; background: #fefefe; border-top: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-right: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0; box-shadow: 3px 3px 0 #e0e0e0;}
 .violet-project { padding: 20px 30px 20px 40px; position: relative;}
 .violet-project .v-loading { padding: 20px 0; text-align: center; }
-.v-project-list { float: left; padding: 12px 0px;  width: 200px; margin-right: 10px;}
+.v-project-list { float: left; padding: 12px 0px;  width: 250px; margin-right: 20px;}
 .v-project-list .name { font-weight: 700; line-height: 28px; font-size: 14px; border-bottom: 1px dotted #d8d8d8; }
 .v-project-list .name span { color: #888; margin: 0 0 0 3px; padding-left: 18px; font-weight: 500; text-align: right; font-size: 13px; line-height: 28px; font-family:  Arial,serif; }
 .v-project-list .v-project-watch { background: url(/images/icon.png) no-repeat -5px -54px;}

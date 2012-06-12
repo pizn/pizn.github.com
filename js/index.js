@@ -52,5 +52,5 @@ $(document).ready(function() {
     violet.selfPhoto();
     
     //show github Porject    
-    violet.getGitHub("pizn", "4", "#J_porject");
+    violet.getGitHub("pizn", "3", "#J_porject");
 });
