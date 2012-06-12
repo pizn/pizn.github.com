@@ -106,7 +106,7 @@ var violet = violet || {
                     		$(id).append(project);
     					}	
     				} else {
-    					for( i = 1; i < num+1; i++){
+    					for( i = 0; i < num; i++){
     						repo_name = data.data[i].name;
     						repo_url = data.data[i].html_url;
     						repo_desc = data.data[i].description;
