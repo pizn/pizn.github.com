@@ -1456,9 +1456,9 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 	background: #fff;
 	border-width: 1px 1px 1px 1px;
 	border-color: #f8f8f8 #d0d0d0 #f8f8f8 #d0d0d0;
-	border-type: solid;
+	border-style: solid;
 	box-shadow: 3px 3px 0 #e0e0e0;
 }
 .head-tips p a {
-	color: #0044cc;
+	color: #4d8bbc;
 }
