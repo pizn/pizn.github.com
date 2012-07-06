@@ -13,7 +13,7 @@ var violet = violet || {
     	}
     	var isViolet = document.cookie.match(new RegExp(cookie_Key+ '=([Y])'))
     	if(isViolet == null) {
-			$$("#J-tips").show();
+			$("#J-tips").show();
     	}
     },
     showFlower: function(a, b){
