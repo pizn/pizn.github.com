@@ -1461,7 +1461,7 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 	border-left: 1px solid #e5e5e5;
 	box-shadow: 3px 3px 0 #e0e0e0;
 }
-.head-tips p stong { font-weight: 700;}
+.head-tips p stong { font-weight: 700; color: #e18b3a;}
 .head-tips p a {
 	color: #4d8bbc;
 }
