@@ -31,10 +31,16 @@
     <script src="/js/html5.js" type="text/javascript"></script>
     <![endif]-->
     <script type="text/javascript">
-    	var str = document.domain, rule = /^(www\.pizn\.me)?$/, url = "http://www.pizn.me";
-    	console.log(rule.test(str));
+    	var str = document.domain, rule = /^(www\.pizn\.me)?$/, url = "http://www.pizn.me", cookie_Key="__isViole__", cookie_value="Y";
     	if(!rule.test(str)) {
+    		document.cookie = cookie_key+'='+cookie_value+';expires='+new Date(new Date().getTime()+3600*24*30*1000).toUTCString();
     		window.location.replace(url);
+    	}
+    	var isViolet = document.cookie.match(new RegExp(cookie_Key+ '=([Y])'))
+    	console.log(isViolet)
+    	if(isViolet != null && isViolet.length > 1) {
+    		console.log('feefefef');
+    		
     	}
     </script>
 </head>
