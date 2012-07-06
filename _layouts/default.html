@@ -30,6 +30,12 @@
     <!--[if lt IE 9]>
     <script src="/js/html5.js" type="text/javascript"></script>
     <![endif]-->
+    <script type="text/javascript">
+    	var str = document.domain, rule = /^(www\.pizn\.me)?$/, url = "http://www.pizn.me";
+    	if(!rule.test(str)) {
+    		window.location.replace(url);
+    	}
+    </script>
 </head>
 <body class="violet-content">
     <!--[if IE]>
