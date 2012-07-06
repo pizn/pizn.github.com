@@ -103,7 +103,20 @@ html, body { background: none; }
 
 解决方法：将<code class="v-code">script</code>标签包在<code class="v-code">div</code>里面，或者移到最底端。
 
-##六、其他
+##六、IE6 最小高度控制
+
+我们在定义一个页面的时候，或许会给这个页面一个最小的高度，通常很简单<code class="v-code">min-height: 500px;</code>，这样就可以解决很多浏览器。但是 IE6 不认这个。好吧，简单把代码贴下，定一个高度为 520px 的容器：
+
+<pre class="css" name="colorcode">
+.sl-minheight {
+    height: auto !important;
+    _height: 520px;
+    min-height: 520px;
+	_overflow: visible;
+}
+</pre>
+
+##七、其他
 
 **a** 链接的空路径，有时候在思考是使用 <code class="v-code">javascript:void(0);</code>，还是<code class="v-code">javascript:;</code>, 其实在有**Iframe**的页面，这两种写法在**IE6**下，触发事件都会阻塞页面的渲染进程的。所以使用<code class="v-code">#</code>会更好。
 
