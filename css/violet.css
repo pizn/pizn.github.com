@@ -1446,6 +1446,7 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 }
 /** tips **/
 .head-tips {
+	display: none;
 	margin: 10px auto 0 auto;
 	width: 990px;
 }
@@ -1454,11 +1455,13 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 	width: 900px;
 	padding: 3px 0 3px 8px;
 	background: #fff;
-	border-width: 1px 1px 1px 1px;
-	border-color: #f8f8f8 #d0d0d0 #f8f8f8 #d0d0d0;
-	border-style: solid;
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	border-left: 1px solid #e5e5e5;
 	box-shadow: 3px 3px 0 #e0e0e0;
 }
+.head-tips p stong { font-weight: 700;}
 .head-tips p a {
 	color: #4d8bbc;
 }

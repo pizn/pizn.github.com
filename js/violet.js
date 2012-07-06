@@ -5,6 +5,17 @@
  */
 var violet = violet || {
     VERSION: '2.0',
+    checkViolet: function() {
+    	var str = document.domain, rule = /^(www\.pizn\.me)?$/, url = "http://www.pizn.me", cookie_Key="__isViole__", cookie_value="Y";
+    	if(!rule.test(str)) {
+    		document.cookie = cookie_key+'='+cookie_value+';expires='+new Date(new Date().getTime()+3600*24*30*1000).toUTCString();
+    		window.location.replace(url);
+    	}
+    	var isViolet = document.cookie.match(new RegExp(cookie_Key+ '=([Y])'))
+    	if(isViolet == null) {
+			$$("#J-tips").show();
+    	}
+    },
     showFlower: function(a, b){
         var banner = $('#J_banner');
         banner.addClass('swing');
@@ -135,6 +146,7 @@ var violet = violet || {
     }
 }
 $(document).ready(function(){
+	violet.checkViolet();
   	//highLightMenu    
     violet.highLightMenu();
          
