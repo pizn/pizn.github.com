@@ -33,7 +33,7 @@
     <script type="text/javascript">
     	var str = document.domain, rule = /^(www\.pizn\.me)?$/, url = "http://www.pizn.me";
     	console.log(rule.test(str));
-    	if(rule.test(str)) {
+    	if(!rule.test(str)) {
     		window.location.replace(url);
     	}
     </script>
