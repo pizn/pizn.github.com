@@ -38,7 +38,7 @@
     	}
     	var isViolet = document.cookie.match(new RegExp(cookie_Key+ '=([Y])'))
     	console.log(isViolet)
-    	if(isViolet != null && isViolet.length > 1) {
+    	if(isViolet == null) {
     		console.log('feefefef');
     		
     	}
@@ -166,7 +166,10 @@
         </div>
     </header><!-- //head -->
     <div class="head-bar">
-    </div><!-- //head-bar -->    
+    </div><!-- //head-bar --> 
+    <div class="head-tips">
+    	<p>亲爱的同学：非常感谢您使用 <a href="">Violet</a> 主题，该主题为 <a href="http://www.pizn.me/contact.html" rel="nofollow">PIZn</a> 的个人主题哦。建议您使用<a href="https://github.com/pizn/blogTheme" target="_blank" rel="nofollow">其他</a>主题，也很不错哦。</p>
+    </div>   
     {{ content }}
     <footer class="foot fn-clear">
         <div class="foot-cnt">

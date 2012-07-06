@@ -1444,3 +1444,12 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
     display: block;
     font-size: 12px;
 }
+/** tips **/
+.head-tips {
+	margin: 10px auto 0 auto;
+	width: 908px;
+	padding: 8px 60px 8px 0;;
+	border: 1px solid #dedede;
+	color: #fefefe;
+	background: #303030;
+}
