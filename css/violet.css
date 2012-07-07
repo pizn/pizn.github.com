@@ -456,7 +456,7 @@ body .fn-hide { display:none; }
 .v-excerpt-title { margin-bottom: 12px; }
 .v-excerpt-title a { font-size: 18px; font-family: "Times New Roman",Times, serif; color: #489620; font-weight: 700; }
 .v-excerpt-title a:hover, .v-post-list .v-post-title a:hover { color: #246105; text-decoration: none; }
-.v-excerpt-det { font-size: 13px; line-height: 21px; color: #686868; font-family: Verdana,Arial,Helvetica,sans-serif; margin-bottom: 0; }
+.v-excerpt-det { font-size: 13px; line-height: 21px; color: #686868; font-family: Georgia, sans-serif; margin-bottom: 0; }
 .v-excerpt-det p { margin-bottom: 10px; }
 .v-post-list { padding: 8px 0; border-top: 1px solid #fff; border-bottom: 1px dashed #e8e8e8; }
 .v-post-list:hover { background: #f5f5f5; 
@@ -501,7 +501,7 @@ body .fn-hide { display:none; }
 .violet-about-det em { padding: 0 2px; font-weight: 700; border-bottom: 1px dotted #e8e8e8; }
 
 /** v-my-face **/
-.v-my-face { height:  104px; -moz-box-shadow: 0 0 4px #d0d0d0; -webkit-box-shadow: 0 0 4px #d0d0d0; -o-box-shadow: 0 0 4px #d0d0d0; box-shadow: 0 0 4px #d0d0d0; background:  #fefefe; }
+.v-my-face { width: 177px; height: 104px; -moz-box-shadow: 0 0 4px #d0d0d0; -webkit-box-shadow: 0 0 4px #d0d0d0; -o-box-shadow: 0 0 4px #d0d0d0; box-shadow: 0 0 4px #d0d0d0; background:  #fefefe; }
 p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 .v-my-face img {
     cursor: pointer;
@@ -530,7 +530,7 @@ p.v-my-face { padding-bottom: 0; margin: 0 auto 10px auto; text-align: right}
 }
 .v-my-face span { display:  none; }
 .v-my-face-hover { position:  relative; cursor: pointer; }
-.v-my-face-hover span { text-align:  center; color: #fff; position:  absolute; display: block; height:  60px; padding: 41px 1px 1px 1px; border: 1px solid #555; top: 0 ; left: 0; background: rgba(0, 0, 0, 0.8); }
+.v-my-face-hover span { text-align:  center; color: #fff; position:  absolute; display: block; width: 177px; height:  60px; padding: 41px 1px 1px 1px; border: 1px solid #555; top: 0 ; left: 0; background: rgba(0, 0, 0, 0.8); }
 
 /** violet-attent **/
 .violet-attent { margin-left: 15px;}
