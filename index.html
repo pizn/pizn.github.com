@@ -19,7 +19,7 @@ isIndex: true
         <div class="ui-grid-25 ui-grid-right content-top">	
         	<div class="ui-grid-23 violet-post">
                 <div class="violet-post-det fn-clear">
-            <section class="ui-grid-15 violet-journal">
+            <section class="ui-grid-16 violet-journal">
                 <h4 class="v-section-tit">Last Journal</h4>
                 {% for rpost in site.posts limit:5 %}
                 <article class="v-excerpt fn-clear">
@@ -27,7 +27,7 @@ isIndex: true
                         <h3 class="v-excerpt-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
                         <p class="v-date"><span>&#8227;</span><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
                     </div>
-                    <div class="ui-grid-8 ui-grid-right v-excerpt-det">
+                    <div class="ui-grid-9 ui-grid-right v-excerpt-det">
                         <p>{{ rpost.description }}</p>
                         <p class="v-more"><a href="{{ rpost.url }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
                     </div>
