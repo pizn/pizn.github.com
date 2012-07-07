@@ -432,7 +432,7 @@ body .fn-hide { display:none; }
 .content a { color: #4D8BB4; }
 .content a:hover { color: #800808; }
 .content .v-more, .content .v-more-right { margin-bottom: 0;text-align:right}
-.content .v-more a, .content .v-more-right a { font-family: Verdana,Arial,Helvetica,sans-serif; line-height: 18px; padding: 2px 6px 2px 0; border-radius: 3px 3px; background: #e18b3a; color: #fff; cursor: pointer; }
+.content .v-more a, .content .v-more-right a { font-family: Georgia,sans-serif; line-height: 18px; padding: 2px 6px 2px 0; border-radius: 3px 3px; background: #e18b3a; color: #fff; cursor: pointer; }
 .content .v-more a span, .content .v-more-right a span { padding-right: 2px; color: #fff; }
 .content .v-more a:hover, .content .v-more-right a:hover { text-decoration:  none; background: #f10072; }
 .content .v-more-right { padding: 10px 10px 0 0; text-align: right; line-height: 22px; }
