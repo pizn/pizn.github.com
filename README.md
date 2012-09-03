@@ -24,4 +24,8 @@ www.pizn.me 上的文章采用<a href="http://creativecommons.org/licenses/by-nc
 
 邮箱: pizner@gmail.com
 
-##test
+##Todo
+
+* 完成样式的优化
+* jekyll 整理
+* 响应式设计
