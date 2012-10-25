@@ -145,14 +145,65 @@ var violet = violet || {
     			}
     		}
     	});
-    	
+    }
+}
+/**
+ *  goTop for violet
+ */
+violet.goTop = {
+    nodeName: "J-backTop",
+        scrollHeight: "100",
+        linkBottom: "200px",
+        linkRight: "20px",
+        _scrollTop: function() {
+        if(jQuery.scrollTo) {
+            jQuery.scrollTo(0, 800, {queue:true});
+        }
+    },
+    _scrollScreen: function() {
+        var that = this, topLink = $('#' + that.nodeName);
+        if(jQuery(document).scrollTop() <= that.scrollHeight) {
+            topLink.hide();
+            return true;
+        }  else {
+            topLink.fadeIn();
+        }
+    },
+    _resizeWindow: function() {
+        var that = this, topLink = $('#' + that.nodeName);
+        topLink.css({
+            'right' : that.linkRight,
+            'bottom': that.linkBottom
+        });
+    },
+    run: function() {
+        var that = this, topLink = $('<a id="' + that.nodeName + '" href="#" class="violet-backtop">Top</a>');
+        topLink.appendTo($('body'));
+        topLink.css({
+            'display': 'none',
+            'position': 'fixed',
+            'right': that.linkRight,
+            'bottom': that.linkBottom
+        });
+        if(jQuery.scrollTo) {
+            topLink.click(function() {
+                that._scrollTop();
+                return false;
+            });
+        }
+        jQuery(window).resize(function() {
+            that._scrollScreen();
+        });
+        jQuery(window).scroll(function() {
+            that._scrollScreen();
+        });
     }
 }
 $(document).ready(function(){
 	violet.checkViolet();
   	//highLightMenu    
     violet.highLightMenu();
-         
+    violet.goTop.run();
     //selfPhoto
     var showSelfPhoto = $("#J_myFace");
     showSelfPhoto.hover(
