@@ -74,7 +74,7 @@ keywords: CSS3,PNG,Loading
 
 HTML 代码如下：
 <pre class="html" name="colorcode">
-&lt;p id="loading"$gt;Loading&lt;/p&gt;
+&lt;p id="loading"&gt;Loading&lt;/p&gt;
 </pre>
 
 恩，这样就 OK 了。
