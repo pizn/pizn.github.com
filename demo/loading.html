@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 & PNG loading</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        * {
+            margin: 0 0;
+            padding: 0 0;
+        }
+        body {
+            background: #fefefe;
+        }
+        #loading {
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -18px 0 0 -18px;
+            text-indent: -9999em;
+            overflow: hidden;
+            background: url(loading.png) no-repeat 0 0;
+            -webkit-animation-name: loadRotate;
+            -moz-animation-name: loadRotate;
+            animation-name: loadRotate;
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            animation-timing-function: linear;
+        }
+        @-webkit-keyframes loadRotate {
+            from {
+                -webkit-transform:rotate(0deg);
+            }
+            25% {
+
+            }
+            to {
+                -webkit-transform:rotate(360deg);
+            }
+        }
+        @-moz-keyframes loadRotate {
+            from {
+                -moz-transform:rotate(0deg);
+            }
+            to {
+                -moz-transform:rotate(360deg);
+            }
+
+        }
+        @keyframes loadRotate {
+            form {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<p id="loading">Loading</p>
+</body>
+</html>
