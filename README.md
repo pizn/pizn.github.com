@@ -14,7 +14,9 @@ This is the source code for <a href="http://www.pizn.me" target="_blank" title="
 
 www.pizn.me 上的文章采用<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">署名-非商业性使用-相同方式共享</a>协议进行授权，转载请注明转自：<a href="http://www.pizn.me" target="_blank">pizn.me</a>.
 
-设计界面由<a href="http://pizn.net" target="_blank">PIZn</a>设计提供，图片视觉设计版权由 PIZn 所有。<a href="http://www.pizn.me" target="_blank">PIZn.me</a>的紫色主题是 PIZn 的私有主题，如果你喜欢这个主题，请提前跟我说下，并注明是 <a href="http://www.pizn.me" target="_blank">PIZn</a>开发和设计的。谢谢。PS: 我很鄙视别人用了我的劳动成果，还注明是他自己设计的。请尊重在下！
+设计界面由<a href="http://pizn.net" target="_blank">PIZn</a>设计提供，图片视觉设计版权由 PIZn 所有。<del><a href="http://www.pizn.me" target="_blank">PIZn.me</a>的紫色主题是 PIZn 的私有主题，</del>如果你喜欢这个主题，请提前跟我说下，并注明是 <a href="http://www.pizn.me" target="_blank">PIZn</a>开发和设计的。谢谢。<del>PS: 我很鄙视别人用了我的劳动成果，还注明是他自己设计的。请尊重在下！</del>
+
+2012年11月08日，由于种种原因，violet 主题开放使用。至于为啥要开放出来，可详见 <a href="http://www.pizn.net/08-11-2012/one-blog/">这里</a>。
 
 站点其他代码采用  <a href="http://zh.wikipedia.org/wiki/MIT_License" target="_blank">MIT License 许可。</a>
 
