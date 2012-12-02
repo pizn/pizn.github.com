@@ -3,7 +3,7 @@ pygments: true
 plugins: ./_plugins
 
 title: PIZn
-url: http://www.pizn.me
+url: http://pizn.github.com
 feed: /atom.xml
 author:
     name: PIZn
