@@ -1,4 +1,4 @@
-##www.pizn.me
+##pizn.github.com
 
 这是 <a href="http://www.pizn.net" target="_blank" title="pizn.me">PIZn</a> 在 GitHub 上使用 <a href="http://jekyllrb.com" target="_blank" >Jekyll</a> 搭建的个人博客的所有源代码。该博客的目的 用来<strong>快速</strong>记录工作，学习，生活的一点一滴。更多分享，更多交流，更多进步。
 
