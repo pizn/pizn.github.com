@@ -5,46 +5,30 @@ description: PIZn 的文章归档。在这里你可以找到 PIZn.Me 上的所�
 keywords: PIZn, GitHub, Archives, mac, css, html, javascript, violet, Jekyll, plugins, wordpress
 isArchive: true
 ---
-    <section class="content fn-clear">
-        <div class="content-cnt">
-        <div class="ui-grid-25 ui-grid-right content-top">
-        
-       	 	<div class="ui-grid-23 violet-post">
-                <div class="v-section-tit">
-                    <h4>All posts is here.&nbsp;&nbsp;&nbsp;<span>({{ site.posts | size }} posts.)</span><input id="J_search" class="violet-input" placeholder="Simple Search"/></h4>                
-                </div>
-                <div class="violet-post-det fn-clear">
-        
-            <section class="ui-grid-20 violet-post v-post-detail">             
-                {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-                <div class="violet-archive fn-clear">
-                    <p class="ui-grid-2 year">{{ post_year1 }}</p>
-                    <div class="ui-grid-18 ui-grid-right ui-grid-bottom">
-                    {% for post in site.posts %}
-                        {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
-                        {% if post_year1 != post_year2 %}
-                            {% assign post_year1 = post_year2 %}
-                    </div>
-                </div><!-- //violet-archive -->         
-                <div class="violet-archive fn-clear">
-                    <p class="ui-grid-2 year">{{ post_year1 }}</p>
-                    <div class="ui-grid-18 ui-grid-right ui-grid-bottom">
-                        {% endif %}
-                        <article class="article fn-clear">
-                            <div class="ui-grid-6 v-archive-tit">
-                                <p class="v-date"><span>&#8227;</span><time pubdate="{{ post.date | date: '%b %d, %Y' }}">{{ post.date | date: '%b %d' }}</time></p>
-                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                            </div>
-                            <div class="ui-grid-12 v-archive-det">
-                                <p>{{ post.description }}</p>
-                            </div>
-                        </article><!-- //archive -->
-                    {% endfor %}
-                    </div>
-                </div><!-- //violet-archive -->            
-            </section><!-- //violet-post -->
-            </div>
-            </div>
+<article class="main-article main-article-page">
+    <div class="violet-title">
+        <h3 class="violet-title-item">All posts is here.<span>({{ site.posts | size }} posts.)</span></h3>
+    </div>
+    <div class="violet-post">
+        <div class="main-article-contant">
+
+            {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
+            <h3>{{ post_year1 }}</h3>
+            <ul class="article-year fn-clear">
+                {% for post in site.posts %}
+                    {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+                    {% if post_year1 != post_year2 %}
+                        {% assign post_year1 = post_year2 %}
+            </ul>
+            <h3>{{ post_year1 }}</h3>
+            <ul class="article-year fn-clear">
+                    {% endif %}
+                <li>
+                    <span>{{ post.date | date_to_utc | date: '%Y-%m-%d' }}</span>
+                    <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-        </div>
-    </section><!-- //content -->
+    </div>
+</article>

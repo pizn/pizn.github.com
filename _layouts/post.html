@@ -1,55 +1,39 @@
 ---
 layout: default
 isPost: true
+comment: true
 ---
-    <section class="content fn-clear" id="i-am-top">
-        <div class="content-cnt">
-        <div class="ui-grid-25 ui-grid-right content-top">
-            <section class="ui-grid-23 violet-post">
-                <div class="v-section-tit">
-                    <a href="/" rel="nofollow" >Home</a>
-                    <span>&#9830;</span>
-                    <a href="/archives.html" rel="nofollow" >Archives</a>
-                    <span>&#9830;</span>
-                    <h2>{{ page.title }}</h2>
-                </div>
-                <div class="violet-post-det fn-clear">
-                    <div class="ui-grid-15 v-post-detail">
-                        <div class="v-entry">
-                            <h1 class="title">{{ page.title }}</h1>
-                            <p class="meta"><time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_utc | date: "%Y-%m-%d" }}</time> By <a href="/contact.html" class="author" title="author">PIZn</a><g:plusone size="small"></g:plusone></p>
-                            <p class="description">{{ page.description }}</p>
-                            {{ content }}
-                        </div>
-                        <div class="v-announce">
-                            <p>声明: 本文采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a> 协议进行授权. 转载请注明转自: <a href="{{ page.url }}" title="{{ page.title }}" rel="nofollow">{{ page.title }}</a></p>
-                        </div>
-                        <nav class="v-pagination">
-                            {% if page.previous %}
-                            <a class="prev" href="{{ page.previous.url }}" rel="bookmark">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
-                            {% endif %}
-                            {% if page.next %}
-                            <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
-                            {% endif %}
-                         </nav>
-                         <div class="violet-comment">
-                             <div id="disqus_thread"></div>
-                         </div><!-- //violet-comment -->
-                    </div>                   
-                    <div class="ui-grid-6 v-post-aside">
-                        <article class="recent-post">
-                            <h4 class="v-section-tit">Recent Articles</h4>
-                            <ul>
-                            {% for rpost in site.related_posts limit:8  %}   
-                                <li>
-                                    <a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a>
-                                </li>                                   
-                            {% endfor %}
-                            </ul>
-                        </article>
-                    </div><!-- //v-post-aside -->
-                </div>
-            </section><!-- //violet-post -->
+<article class="main-article main-article-page">
+    <div class="violet-title">
+        <h3 class="violet-title-item">{{ page.title }}</h3>
+    </div>
+    <div class="violet-post">
+        <p class="main-article-meta"><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
+        <div class="main-article-contant">
+            {{ content }}
         </div>
+    </div>
+</article>
+<nav class="pagination fn-clear" id="violet-paging">
+    <div class="pagination-list">
+        {% if page.previous %}
+        <a class="prev" href="{{ page.previous.url }}" rel="bookmark"><i class="fa fa-chevron-circle-left"></i>{{ page.previous.title | truncatewords:5 }}</a>
+        {% endif %}
+        {% if page.next %}
+        <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}<i class="fa fa-chevron-circle-right"></i></a>
+        {% endif %}
+    </div>
+</nav>
+<div class="comment">
+    {% if site.disqus.config %}
+        <div class="comment-cnt">
+            <div id="disqus_thread"></div>
         </div>
-    </section><!-- //content -->
+    {% else %}
+        {% if site.duoshuo.config %}
+        <div class="comment-cnt">
+            <div class="ds-thread"></div>
+        </div>
+        {% endif %}
+    {% endif %}
+</div>

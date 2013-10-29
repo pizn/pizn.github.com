@@ -5,54 +5,30 @@ description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来�
 keywords: PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek
 isIndex: true
 ---
-    <div class="banner">
-        <div class="b-cnt">
-            <div class="ui-grid-25 ui-grid-bottom ui-grid-right">
-                <div class="banner-cnt" id="J_banner">
-                </div><!-- //banner-cnt -->
-            </div>
-        </div>
-    </div><!-- //banner -->
 
-    <section class="content fn-clear">
-        <div class="content-cnt">
-        <div class="ui-grid-25 ui-grid-right content-top">	
-        	<div class="ui-grid-23 violet-post">
-                <div class="violet-post-det fn-clear">
-            <section class="ui-grid-16 violet-journal">
-                <h4 class="v-section-tit">Last Journal</h4>
-                {% for rpost in site.posts limit:5 %}
-                <article class="v-excerpt fn-clear">
-                    <div class="ui-grid-7 ui-grid-bottom">
-                        <h3 class="v-excerpt-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
-                        <p class="v-date"><span>&#8227;</span><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
-                    </div>
-                    <div class="ui-grid-9 ui-grid-right v-excerpt-det">
-                        <p>{{ rpost.description }}</p>
-                        <p class="v-more"><a href="{{ rpost.url }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
-                    </div>
-                </article><!-- //v-post-excerpt -->
-                {% endfor %}
-                {% for npost in site.posts limit:3 offset:5  %}             
-                <article class="v-post-list fn-clear">
-                    <p class="v-date"><span>&#8227;</span><time pubdate="{{ npost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ npost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
-                    <h3 class="v-post-title"><a href="{{ npost.url }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></h3>
-                </article><!-- //v-post-list -->
-                {% endfor %}
-            </section><!-- //Journal -->
-            
-            {% include aside.html %}
-            </div>
-            </div>
+{% for rpost in paginator.posts %}
+<article class="main-article">
+    <div class="violet-post">
+        <h3 class="main-article-title"><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
+        <p class="main-article-meta"><time pubdate="{{ rpost.date | date_to_utc | date: '%Y-%m-%d' }}">{{ rpost.date | date_to_utc | date: "%Y-%m-%d" }}</time></p>
+        <div class="main-article-contant">
+            <p>{{ rpost.description }}</p>
+            <p class="main-article-more"><a href="{{ rpost.url }}" title="Read More" rel="nofollow">Read More</a></p>
         </div>
-        
-        <div class="ui-grid-25 ui-grid-bottom ui-grid-right">
-                <section class="ui-grid-23 github-project">
-                    <div class="violet-project fn-clear" id="J_porject">
-                    <h4 class="v-section-tit">GitHub Project</h4>
-                    </div>
-                </section>
-        </div>
-        
-        </div>
-    </section><!-- //content -->
+    </div>
+</article>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<nav class="pagination fn-clear" id="violet-paging">
+    <ul class="pagination-list">
+        {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+                <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
+            {% else %}
+                <li><a href="{{ site.url }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+{% endif %}
+

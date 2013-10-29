@@ -3,12 +3,12 @@
 <head>
     <!--
      **
-     * Author:         PIZn
-     * Contact:        pizner@gmail.com
+     * Author:         掌心
+     * Contact:        zhanxin.info@gmail.com
      * Theme Name:     Violet ( Violet 主题代表着一种颜色，一种情感，还有一种美)
-     * Create Date:    2012-01-08
+     * Create Date:    2013.10
      **
-   -->
+    -->
     <meta charset="utf-8" />
     <title>
         {% if page.title %}
@@ -21,273 +21,101 @@
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="description" content="{{ page.description }}" />
     <meta name="keywords" content="{{ page.keywords | join: ',' }}" />
-    <link rel="stylesheet" href="/css/violet.css" type="text/css" />
-    {% if(page.isArchive) %}
-    <link rel="stylesheet" href="/css/jquery-ui-1.8.18.custom.css" type="text/css" />
-    {% endif %}
+    <!-- //页面样式 -->
+    <link rel="stylesheet" href="{{ site.url }}{{ site.themes }}/css/style.css" type="text/css" />
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <!--[if lt IE 9]>
-    <script src="/js/html5.js" type="text/javascript"></script>
-    <![endif]-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ site.url }}{{ site.themes }}/images/favicon.ico" type="image/x-icon" />
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body class="violet-content">
-    <!--[if IE]>
-    <div class="KillIE">
-        <p>注意：假如您使用 <a href="http://www.google.com/chrome/" target="_blank" rel="nofollow">Chrome</a>, <a href="http://www.mozilla.com/" target="_blank" rel="nofollow">FireFox</a>, 或者 <a href="http://www.apple.com/safari/" rel="nofollow" target="_blank">Safari</a> 等高级浏览器。本站将为您带来更好的体验哦!</p>
-        <p>Attention: If you use <a href="http://www.google.com/chrome/" target="_blank" rel="nofollow">Chrome</a>, <a href="http://www.mozilla.com/" target="_blank" rel="nofollow">FireFox</a>, or <a href="http://www.apple.com/safari/" rel="nofollow" target="_blank">Safari</a> , our site will be more beautiful. Thanks!</p>
-    </div>
-    <![endif]-->
-    <header class="head">
-        <div class="head-cnt">
-        <div class="ui-grid-25 ui-grid-right ui-grid-bottom">
-            <div class="ui-grid-20 header-line"></div>
-            <div class="ui-grid-20 header">
-                <div class="header-bg"></div>
-                <div class="ui-grid-9 header-cnt fn-clear">
-                    <div class="violet-logo">
-                        <div class="v-position-1">
-                            <div class="v-petal v-deg-0 v-color-1">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                        <div class="v-position-2">
-                            <div class="v-petal v-deg-60 v-color-2">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                        <div class="v-position-3">
-                            <div class="v-petal v-deg-120 v-color-3">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                        <div class="v-position-4">
-                            <div class="v-petal v-deg-180 v-color-4">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                        <div class="v-position-5">
-                            <div class="v-petal v-deg-240 v-color-5">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                        <div class="v-position-6">
-                            <div class="v-petal v-deg-300 v-color-6">
-                                <div class="v-petal-top">
-                                </div>
-                                <div class="v-petal-left">
-                                    <div class="v-petal-left-det">
-                                    </div>
-                                </div>
-                                <div class="v-petal-right">
-                                    <div class="v-petal-right-det">
-                                    </div>
-                                </div>
-                            </div><!-- v-petal -->
-                        </div>
-                    </div><!-- //violet-logo -->
-                    <hgroup class="violet-site">
-                        <h1><a href="/" title="PIZn" rel="nofollow">PIZn</a><span>.me</span></h1>
-                        <h2>Phosphorus,Iodine & Zinc.</h2>
-                    </hgroup><!-- //violet-site -->
-                </div><!-- //header-cnt -->
-                <nav class="ui-grid-11 violet-nav">
-                    <ul class="fn-clear" id="J_nav">
-                        <li><a href="/" class="current" rel="nofollow">Home</a></li>
-                        <li><a href="/archives.html" class="" rel="bookmark">Archives</a></li>
-                        <li><a href="/plugins.html" class="" rel="bookmark">Plugins</a></li>
-                        <li><a href="/works.html" class="" rel="bookmark">Works</a></li>
-                        <li class="last"><a href="http://www.zhanxin.info/contact.html" class="" rel="bookmark">Contact</a></li>
-                    </ul>
-                </nav><!-- //nav -->
-            </div><!-- //header -->
-            <div class="ui-grid-4 violet-rss fn-clear">
-                <a href="/atom.xml" target="_blank" rel="nofollow" class="subscribe">RSS</a>
-            </div><!-- //violet-flower -->
-        </div><!-- //grid-20 -->
-        </div>
-    </header><!-- //head -->
-    <div class="head-bar">
-    </div><!-- //head-bar --> 
-    <div class="head-tips" id="J-tips">
-    	<p><strong>亲爱的同学：</strong>非常感谢您使用 <a
-            href="http://pizn.github.com/2012/01/09/violet-is-comming.html">Violet</a>
-        主题，该主题为 <a href="http://www.pizn.net/contact" rel="nofollow">PIZn</a> 的个人主题哦。建议您使用 <a href="https://github.com/pizn/blogTheme" target="_blank" rel="nofollow">其他</a> 主题，也很不错哦。</p>
-    </div>   
-    {{ content }}
-    <footer class="foot fn-clear">
-        <div class="foot-cnt">
-        <div class="ui-grid-25 ui-grid-right ui-grid-bottom">
-            <section class="ui-grid-13 violet-submenu">
-                <ul>
-                    <li><a href="/" rel="nofollow"><span>&#8227;</span>Home</a></li>
-                    <li><a href="/archives.html" rel="bookmark"><span>&#8227;</span>Archives</a></li>
-                    <li><a href="/plugins.html" rel="bookmark"><span>&#8227;</span>Plugins</a></li>
-                    <li><a href="/works.html" rel="bookmark"><span>&#8227;</span>Works</a></li>
-                    <li><a href="http://www.zhanxin.info/contact.html" rel="bookmark"><span>&#8227;</span>Contact</a></li>
+<body id="violet">
+    <div class="page-wrapper">
+        <section class="head" id="violet-head">
+            <header class="header" id="violet-header">
+                <h1 class="logo"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+                <h2 class="subtitle">{{ site.subTitle }}</h2>
+            </header>
+            <nav class="nav" id="violet-nav">
+                <ul class="nav-list">
+                    {% for link in site.nav %}
+                    {% assign active = nil %}
+                    {% if page.url == link.url%}
+                      {% assign active = 'nav-item-active' %}
+                    {% endif %}
+                    <li class="nav-item {{ active }}">
+                        <a href="{{ link.url }}">
+                            {{ link.text }}
+                        </a>
+                        {{ indicator }}
+                    </li>
+                    {% endfor %}
                 </ul>
-            </section>
-            <section class="ui-grid-6 violet-theme">
-                <p>Powered by <a href="http://jekyllrb.com" target="_blank"
-                    rel="nofollow">Jekyll</a>. Violet theme designed by <a
-                href="http://www.zhanxin.info" rel="nofollow">zhanxin.info</a>.<span class="v-tj"><script src="http://s16.cnzz.com/stat.php?id=4812145&web_id=4812145&show=pic" language="JavaScript"></script></span></p>
-            </section>
-            <section class="ui-grid-4 violet-copyright">
-                <p>Copyright © 2011–2013 PIZn All rights reserved.</p>
-            </section>
-        </div>
-        </div>
-    </footer>
-    <a class="v-fork-me" href="https://github.com/pizn/pizn.github.com" target="_blank" rel="nofollow">
-        <img src="/images/forkme.png" alt="Fork me on GitHub">
-    </a>
-    <script src="/js/jquery.js" type="text/javascript"></script>
-    <script src="/js/jquery.scrollTo.js" type="text/javascript"></script>
-    <script src="/js/violet.js" type="text/javascript"></script>
-    {% if(page.isIndex) %}
-    <script src="/js/index.js" type="text/javascript"></script>
-    {% endif %}    
-    {% if(page.isPost) %}
-    <script src="/js/colorcode.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        //colorcode highlight
-        window.onload = function() {
-            DlHighlight.HELPERS.highlightByName('colorcode', 'pre','', true);
-        }
-        
-        //disqus
-        var disqus_shortname = 'piznblog';
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] ||
-                document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    {% endif %}
-    {% if(page.isPlugin) %}
-    <script type="text/javascript" src="/js/carousel.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#J_colorcode_screen').carousel({
-            itemsPerPage: 1, 
-            itemsPerTransition: 1, 
-            noOfRows: 1, 
-            nextPrevLinks: false, 
-            pagination: true, 
-            speed: 'normal', 
-            easing: 'swing' 
-        });
-    });
-    </script>
-    {% endif %}
-    {% if(page.isArchive) %}
-    <script src="/js/jquery-ui-1.8.18.custom.js"></script>
-    <script type="text/JavaScript">
-    $(function() {
-        $("#J_search").focus(function() {
-            $(this).addClass("v-input-large");
-        });
-        $("#J_search").blur(function() {
-            if($(this).hasClass("v-input-large")) {
-                $(this).removeClass("v-input-large");
-            }
-        });
-        $.ajax({
-            url: "search.xml",
-            dataType: "xml",
-            success: function( xmlResponse ) {
-                var data = $( "article", xmlResponse ).map(function() {
-                    return {
-                        value: $( "title", this ).text() + ", " +
-                            ( $.trim( $( "date", this ).text() ) ),
-                        desc: $("description", this).text(),
-                        url: $("url", this).text()
-                    };
-                }).get();
+            </nav>
+        </section>
+        <section class="main" id="violet-main">
+            {{ content }}
+        </section>
+        <footer class="foot" id="violet-foot">
+            <div class="footer fn-clear">
+                <h1 class="logo">{{ site.title }}</h1>
+            </div>
+            <div class="copyright">
+                <div class="copyright-cnt fn-clear">
+                    {% for link in site.follow %}
+                    <a class="follow" href="{{ link.url }}" target="_blank"><i class="fa {{ link.class }}"></i></a>
+                    {% endfor %}
+                    <p class="text">© 2013 Violet Jekyll Theme.Design by <a href="http://www.zhanxin.info">zhanxin.lin</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-                $( "#J_search" ).autocomplete({
-                    source: data,
-                    minLength: 0,
-                    select: function( event, ui ) {
-                        window.location.href = ui.item.url;
-                    }
-                });
-            }
+    <script type="text/javascript" src="{{ site.url }}{{ site.themes }}/js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="{{ site.url }}{{ site.themes }}/js/jquery-scrollTo.js"></script>
+    <script type="text/javascript" src="{{ site.url }}{{ site.themes }}/js/common.js"></script>
+    <script type="text/javascript">
+        var headImgArr = [];
+        {% for imgsrc in site.headimg %}
+            headImgArr.push("{{ imgsrc.item }}");
+        {% endfor %}
+        if(headImgArr.length <= 0) {
+            headImgArr = ["/themes/violet/images/hdbg03.jpg"];
+            var item = 0;
+        } else {
+            var item = Math.floor(Math.random() * (headImgArr.length));
+        }
+        $("#violet-head").css({
+            "background-image": "url(" + headImgArr[item] + ")"
         });
-    });
     </script>
-    {% endif %}
-    {% if(page.isContact) %}
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $("#J_f2f ul li").hover(function(){
-                $(this).addClass("v-f2f-hover");
-            },
-            function(){
-                $(this).removeClass("v-f2f-hover");
-            });
-    });
-    </script>
-    {% endif %}
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-19946273-5']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    {% if(page.isPost) %}
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    {% if page.comment %}
+        {% if site.disqus.config %}
+        <script type="text/javascript">
+            //disqus
+            var disqus_shortname = '{{ site.disqus.id }}';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] ||
+                    document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"{{ site.duoshuo.id }}"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0]
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            {% endif %}
+        {% endif %}
     {% endif %}
 </body>
 </html>

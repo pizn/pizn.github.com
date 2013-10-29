@@ -1,12 +1,67 @@
 markdown: rdiscount
 pygments: true
 plugins: ./_plugins
+paginate: 8
 
-title: PIZn
-url: http://pizn.github.com
-feed: /atom.xml
-author:
-    name: PIZn
-    email: pizner@gmail.com
-    twitter: twitter.com/piznlin
+safe: false
+
+#站点基础配置
+title: Violet
+subTitle: Just another Jekyll blog.
 description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+url: http://localhost:4000
+feed: /atom.xml
+
+#菜单配置
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 作品
+    url: /works.html
+  - text: 联系我
+    url: http://www.zhanxin.info/contact.html
+
+#theme config
+themes: /themes/violet
+
+#配置你喜欢的顶部背景图片
+headimg:
+  - item: /themes/violet/images/hdbg01.jpg
+  - item: /themes/violet/images/hdbg02.jpg
+  - item: /themes/violet/images/hdbg03.jpg
+  - item: /themes/violet/images/hdbg04.jpg
+
+#关注我
+follow:
+  - class: fa-google-plus
+    url: http://www.zhanxin.info
+  - class: fa-facebook
+    url: http://www.zhanxin.info
+  - class: fa-github
+    url: http://github.com/pizn
+  - class: fa-weibo
+    url: http://weibo.com/pizner
+  - class: fa-renren
+    url: http://www.zhanxin.info
+  - class: fa-pinterest
+    url: http://www.zhanxin.info
+  - class: fa-twitter
+    url: http://www.zhanxin.info
+  - class: fa-rss
+    url: http://www.zhanxin.info
+
+#作者信息
+author:
+  link: http://www.zhanxin.info/contact.html
+  img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
+
+#评论信息
+disqus:
+  config: true
+  id: piznblog
+
+duoshuo:
+  config: false
+  id: zhanxin
