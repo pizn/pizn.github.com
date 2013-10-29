@@ -22,6 +22,8 @@ nav:
     url: /works.html
   - text: 联系我
     url: http://www.zhanxin.info/contact.html
+  - text: 博客源代码
+    url: https://github.com/pizn/pizn.github.com
 
 #theme config
 themes: /themes/violet
