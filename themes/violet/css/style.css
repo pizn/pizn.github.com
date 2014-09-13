@@ -2,6 +2,7 @@
  * @name:   violet 样式
  * @author: zhanxin.info@gmail.com
  * @create: 2013.10
+ * @update: 2014.09
  * @desc:   这里是 violet 新的样式
  */
 /* =Reset
@@ -556,5 +557,92 @@ a.toTop:hover {
     font-size: 24px;
     line-height: 40px;
     vertical-align: top;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #violet-header {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo, .logo a {
+        width: 320px;
+    }
+    .nav-list {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: hidden;
+    }
+    .violet-title .violet-title-item {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .violet-post {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pagination-list {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        height:auto;
+    }
+    .pagination-list:after {
+        visibility:hidden;
+        display:block;
+        font-size:0;
+        content:" ";
+        clear:both;
+        height:0;
+    }
+    .comment-cnt {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-article .article-year li span {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .main-article .article-year li {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 10px;
+        height: auto;
+    }
+    .main-article img {
+        max-width: 100%;
+        height: auto;
+    }
+    .footer {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .copyright-cnt {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        height:auto;
+    }
+    .copyright-cnt .text {
+        display: none;
+    }
+
 }
 

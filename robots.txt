@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: blank
 ---
 User-agent: *
 Disallow: /css/
