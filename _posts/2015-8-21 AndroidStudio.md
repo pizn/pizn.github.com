@@ -1,0 +1,8 @@
+<div class="highlight"><pre><code class="language-java" data-lang="java">defaultConfig {
+        applicationId "yyx.tulingrobot"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+}
+</code></pre></div>
