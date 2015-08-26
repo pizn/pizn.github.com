@@ -3,7 +3,9 @@ layout: post
 title: Violet Android Studio配置文件
 description: Android Studio配置文件
 
----{% highlight java %}  
+---
+
+{% highlight java %}  
 defaultConfig {
         applicationId "yyx.tulingrobot"
         minSdkVersion 21
