@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Hello New Year
 description: 测试
 
