@@ -63,5 +63,4 @@ $ ssh -T git@github.com
 Hi username! You have successfully authenticated, but GitHub does not provide shell access.
 </pre>
 
-test hello123
 
