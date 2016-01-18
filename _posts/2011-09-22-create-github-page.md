@@ -4,14 +4,21 @@ title: 在 github 上建立 pages 的过程
 description: 这篇文章介绍的是使用 github 搭建自己的 pages。
 keywords: GitHub, pages
 ---
-##建立项目-Repository
-  首先在 GitHub 上建立自己库，例如一个 test 库;
-  接着在本地建立 test 库的连接：
-####Global Setup:
-    Set up git 
+## 建立项目-Repository
+
+首先在 GitHub 上建立自己库，例如一个 test 库;
+
+接着在本地建立 test 库的连接：
+
+#### Global Setup:
+
+```shell
+	Set up git 
       git config --global user.name "yourname"
       git config --global user.email "yourmail"
-####Next steps:
+```			
+			
+#### Next steps:
     mkdir Test
     cd Test
     git init
