@@ -8,21 +8,28 @@ keywords: git, svn
 命令，以备以后翻阅。
 加之最近工作团队需要，经常使用 SVN ，所有将 SVN 的常用命令也记在后面。以备后用。
 
-####下载源码
-    git clone xx@xx:/xxx.git
-    
-####更新源码
-    git pull
+#### 下载源码
+```
+		git clone xx@xx:/xxx.git
+```
 
-####分支相关
-    git branch --查看分支
-    git checkout -b name  --创建分支
+#### 更新源码
+```
+git pull
+```
 
-####更新相关
-    git add . -- 增加新的内容
-    git commit -m '修改的信息' -- 提交的内容的信息
-    git push -u origin master -- 将内容提交到主分支
-    
+#### 分支相关
+```
+git branch --查看分支
+git checkout -b name  --创建分支
+```
+
+#### 更新相关
+```    
+	git add . -- 增加新的内容
+	git commit -m '修改的信息' -- 提交的内容的信息
+	git push -u origin master -- 将内容提交到主分支
+```    
 ####Git状态
     git status
 
