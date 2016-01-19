@@ -4,7 +4,6 @@ title: 使用 PNG 图片制作动态 Loading
 description: 使用 CSS3 和 PNG 图片实现 GIF Loading 效果。
 keywords: CSS3,PNG,Loading
 ---
-
 曾经遇到过在一个 GIF 图片里面制作一个半透明的 Loading，无论怎么折腾，总有锯齿，非常不好处理。最后无奈地使用了非半透明的“菊花”，视觉有所降级。
 
 其实如果不兼容 IE 的话，还是可以使用 CSS3 + PNG 图片完成这个动态的 GIF Loading 的。具体效果见 <a href="http://pizn.github.io/demo/loading.html" target="_blank" title="demo">DEMO</a>。
