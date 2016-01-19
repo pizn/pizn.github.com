@@ -4,7 +4,6 @@ title:          为 Jekyll 博客添加静态搜索
 description:    使用 Javascript 通过关键词来搜索博客中的相关文章，实现在 Jekyll 中的静态搜索。
 keywords: Jekyll, search, Javascript, Jquery, Jquery UI, blog, static search, xml, Ajax
 ---
-
 今晚吃完饭后，为博客做了简单的搜索功能，因为做的大多是前台方面的工作，所以我个人
 将其称之为静态搜索。简单介绍下。
 
