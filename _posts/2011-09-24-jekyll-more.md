@@ -6,4 +6,8 @@ tags: Jekyll
 ---
 # 测试函数
 
-123
+```javascript
+class Editor extends Component {
+	
+}
+```
