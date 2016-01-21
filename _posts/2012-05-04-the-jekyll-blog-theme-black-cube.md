@@ -4,7 +4,6 @@ title: Jekyll 博客主题之 Black Cube
 description: Black Cube 是一款 Jekyll 博客主题, 提供首页(index), 归档(archives), 联系(contact)三个页面。
 keywords: Jekyll, Blog, Theme, Design, Black Cube, PIZn
 ---
-
 blogTheme 项目是我之前在 Github 上建立的一个博客主题，这次新增设计好的黑色主题 Black Cube, 希望大家喜欢。
 
 ###主题预览
